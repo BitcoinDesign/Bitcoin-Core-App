@@ -24,7 +24,9 @@ Interactive version of the block clock component and secondary widgets. Goal:
 
 ## Super rough project plan proposal
 
-It's helpful to build out an application step-by-step, optimizing each one.
+It's helpful to build out an application step-by-step, optimizing each one. This is just a starting point and can be changed as we go along based on user needs.
+
+<img width="1325" alt="bitcoin-core-app-versions-212023" src="https://user-images.githubusercontent.com/695901/134462331-695c9fbb-ab77-47f1-b2ab-2d3e41465215.png">
 
 ### Version 1.0: Node runner
 
