@@ -26,7 +26,7 @@ Interactive version of the block clock component and secondary widgets. Goal:
 
 It's helpful to build out an application step-by-step, optimizing each one. This is just a starting point and can be changed as we go along based on user needs.
 
-<img width="1325" alt="bitcoin-core-app-versions-212023" src="https://user-images.githubusercontent.com/695901/134462331-695c9fbb-ab77-47f1-b2ab-2d3e41465215.png">
+<img width="1800" alt="Bitcoin Core App major versions" src="/images/bitcoin-core-app-versions">
 
 ### Version 1.0: Node runner
 
@@ -37,10 +37,6 @@ Notes
 - Smart recommendation for pruning based on device capabilities
 - Smartphone auto-pause when not on wi-fi or plugged-in
 
-### Version 2.0: Key signer
-
-This version adds key management and signing functionality. The application becomes a multi-sig companion for other wallets, making it easier to follow good security practices.
-
-### Version 3.0: Wallet
+### Version 2.0: Wallet
 
 Add full wallet functionality.
