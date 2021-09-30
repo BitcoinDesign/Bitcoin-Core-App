@@ -26,7 +26,7 @@ Interactive version of the block clock component and secondary widgets. Goal:
 
 It's helpful to build out an application step-by-step, optimizing each one. This is just a starting point and can be changed as we go along based on user needs.
 
-<img width="1800" alt="Bitcoin Core App major versions" src="/images/bitcoin-core-app-versions">
+![Bitcoin Core App major versions](/images/bitcoin-core-app-versions.png)
 
 ### Version 1.0: Node runner
 
