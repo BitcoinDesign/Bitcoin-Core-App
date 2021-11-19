@@ -28,6 +28,10 @@ It's helpful to build out an application step-by-step, optimizing each one. This
 
 ![Bitcoin Core App major versions](/images/bitcoin-core-app-versions.png)
 
+### Primary long-term goal
+
+To create a user friendly Bitcoin Core GUI targeted at storing and securing a users Bitcoin savings that is backed by their own node. This would also include an optional companion mobile signing app that can be part of a multi-sig setup. 
+
 ### Version 1.0: Node runner
 
 Initial goal is to get more people to run nodes on smartphones, by offering a simple, elegant experience. The UI is focused on a highly visual block clock. Functionality is limited, but users should be able to connect other applications to the node.
