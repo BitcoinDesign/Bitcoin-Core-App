@@ -1,6 +1,6 @@
 # Bitcoin Core App design
 
-This repo is for documenting the design process for the [Bitcoin Core GUI QML application](https://github.com/bitcoin-core/gui-qml). It's very early in the process, the goal for the first version is to easily run Bitcoin nodes on any device. We want to be public about the design process and hope it results in a better application in the end.
+This repo is for documenting the design process for the [Bitcoin Core App](https://github.com/bitcoin-core/gui-qml). It's very early in the process, the goal for the first version is to easily run Bitcoin nodes on any device. We want to be public about the design process and hope it results in a better application in the end.
 
 ## Design source files
 
