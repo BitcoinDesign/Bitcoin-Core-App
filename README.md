@@ -35,7 +35,7 @@ It's helpful to build out an application step-by-step, optimizing each one. This
 Initial goal is to set the foundation for a modern UI based on best practices, and to get more people to run nodes across operating systems and device types by offering a simple, elegant experience. The UI is focused on a highly visual block clock. Functionality is limited.
 
 Notes
-- Support Android, iOS, Windows, MacOS, Linux if possible
+- Support Linux, macOS, Windows, Android, iOS
 - Smart sync recommendations based on device capabilities
 - Smartphone auto-pause when not on wi-fi or plugged-in
 
