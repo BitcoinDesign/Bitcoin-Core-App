@@ -1,14 +1,16 @@
 # Bitcoin Core App design
 
-This repo is for documenting the design process for the [Bitcoin Core GUI QML application](https://github.com/bitcoin-core/gui-qml). It's very early in the process, the goal for the first version is to easily run Bitcoin nodes on any device, especially smart phones. We want to be public about the design process and hope it results in a better application in the end.
+This repo is for documenting the design process for the [Bitcoin Core GUI QML application](https://github.com/bitcoin-core/gui-qml). It's very early in the process, the short-term goal is to create an app to to easily run a Bitcoin node on any device, especially smart phones. Long-term, our goal is to create a user friendly Bitcoin Core app targeted at storing and securing a users Bitcoin savings that is backed by a users own node.
 
-## Design source files
+We want to be public about the design process and hope it results in a better application in the end.
 
-- [Main file](https://www.figma.com/file/bUhRNyXqpOgHtLO8Tabj6a/Bitcoin-Core-App-Master?node-id=0%3A1)
-- [Working file](https://www.figma.com/file/c1V7b23n0LqRbVJlUkE1mn/Bitcoin-Core-Bosch?node-id=1830%3A608) by [Bosch-0](https://github.com/Bosch-0)
-- [Working file](https://www.figma.com/file/kgGu6z89s2A73xpnrtItlD/Bitcoin-Core-Christoph?node-id=2092%3A60274) by [GBKS](https://github.com/gbks)
+## Design source file
 
-Explorations will be made in the working files, and merged into the main file once consensus is reached.
+- [Main file](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/Bitcoin-Core-App-Main?node-id=1035%3A1883)
+
+Explorations will be made in the working pages within the main file. Finalized designs will be merged into the master pages once consensus is reached. [Bosch](https://github.com/Bosch-0) and [GBKS](https://github.com/gbks) are the current active designers, reach out to them if you would like to contribute. 
+
+The design system for this project can be found within the [design system page](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/?node-id=1%3A3) within the main file.
 
 ## Prototypes
 
@@ -28,19 +30,17 @@ It's helpful to build out an application step-by-step, optimizing each one. This
 
 ![Bitcoin Core App major versions](/images/bitcoin-core-app-versions.png)
 
-### Primary long-term goal
-
-To create a user friendly Bitcoin Core GUI targeted at storing and securing a users Bitcoin savings that is backed by their own node. This would also include an optional companion mobile signing app that can be part of a multi-sig setup. 
-
 ### Version 1.0: Node runner
 
-Initial goal is to get more people to run nodes on smartphones, by offering a simple, elegant experience. The UI is focused on a highly visual block clock. Functionality is limited, but users should be able to connect other applications to the node.
+[Current designs](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/?node-id=1035%3A1883)
+
+Initial goal is to get more people to run nodes on desktop and smartphones by offering a simple, elegant experience. The UI is focused on a highly visual block clock. Functionality is limited, but users should be able to connect other applications to the node.
 
 Notes
 - Support Android, iOS, Windows, MacOS, Linux
 - Smart recommendation for pruning based on device capabilities
 - Smartphone auto-pause when not on wi-fi or plugged-in
 
-### Version 2.0: Wallet
+### Version 2.0: Wallet (TBA)
 
 Add full wallet functionality.
