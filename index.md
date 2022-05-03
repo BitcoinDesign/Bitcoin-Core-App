@@ -1,6 +1,8 @@
 ## Test
 
 [Colors](/colors/)
+[Colors](colors)
+[Colors]({{ '/colors/' | relative_url }})
 
 You can use the [editor on GitHub](https://github.com/BitcoinDesign/Bitcoin-Core-App/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
