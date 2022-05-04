@@ -19,12 +19,15 @@ function onThemeChange(event) {
 }
 
 function updateThemeToggle(container) {
-  var buttons = container.getElementsByTagName("button");
+  var buttons = container.getElementsByTagName("button"), button;
   for(var i=0; i<buttons.length; i++) {
-    if(buttons[i].getAttribute('data-theme') == theme) {
-      buttons[i].classList.add('-active');
+    button = buttons[i];
+    if(button.getAttribute('data-theme') == theme) {
+      button.classList.add('-active');
+      button.setAttribute('aria-pressed', 'true');
     } else {
-      buttons[i].classList.remove('-active');
+      button.classList.remove('-active');
+      button.setAttribute('aria-pressed', 'false');
     }
   }
 }
@@ -38,16 +41,16 @@ function toggleMenu() {
 };
 
 function updateNavAccessibility() {
-  ref.siteNavToggle.setAttribute("aria-hidden", !isMobile);
-  ref.siteNavNav.setAttribute("aria-hidden", isMobile);
-
   if(isMobile) {
+    ref.siteNavToggle.removeAttribute("hidden");
+
     if(mobileMenuVisible) {
       ref.siteNavNav.removeAttribute("hidden");
     } else {
       ref.siteNavNav.setAttribute("hidden", "hidden");
     }
   } else {
+    ref.siteNavToggle.setAttribute("hidden", "hidden");
     ref.siteNavNav.removeAttribute("hidden");
   }
 }
@@ -57,6 +60,7 @@ function showMenu() {
 
   // Update nav trigger accessibility properties
   ref.siteNavToggle.setAttribute("aria-expanded", true);
+  ref.siteNavToggle.setAttribute("aria-label", 'Hide site navigation');
 
   // Update nav menu accessibility properties
   ref.siteNavNav.removeAttribute("hidden");
@@ -72,6 +76,7 @@ function hideMenu() {
 
   // Update nav trigger accessibility properties
   ref.siteNavToggle.setAttribute("aria-expanded", false);
+  ref.siteNavToggle.setAttribute("aria-label", 'Show site navigation');
 
   setTimeout(function() {
     ref.siteNavNav.setAttribute("hidden", "hidden");
@@ -99,7 +104,7 @@ function setupThemeToggle() {
 }
 
 function resize() {
-  var newValue = window.innerWidth < 768;
+  var newValue = window.innerWidth < 640;
 
   if(newValue != isMobile) {
     isMobile = newValue;

@@ -4,10 +4,10 @@
     <a href="{{ '/' | relative_url }}">
       <b>Bitcoin Core app</b><br/>Design docs
     </a>
-    <button id="site-nav-toggle" />
+    <button id="site-nav-toggle" aria-expanded="false" aria-controls="site-nav-nav" aria-label="Show site navigation" hidden />
   </div>
 
-  <nav>
+  <nav id="site-nav-nav">
     <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %} -active{% endif %}">Introduction</a>
 
     {%- assign section = page.url | replace:'/',' ' | truncatewords: 1,"" -%}

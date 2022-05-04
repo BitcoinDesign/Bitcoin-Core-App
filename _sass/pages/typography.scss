@@ -3,7 +3,7 @@
     article {
         .styles {
             list-style-type: none;
-            margin: 0;
+            margin: 20px 0 0 0;
             padding: 0;
 
             li {
@@ -11,6 +11,8 @@
                 flex-wrap: wrap;
 
                 p {
+                    margin: 0;
+
                     &:nth-child(1) {
                         flex-basis: 50%;
                     }
@@ -25,6 +27,7 @@
                     margin-top: 10px;
                     padding-top: 10px;
                     border-top: 1px solid var(--neutral-4);
+                    flex-basis: 100%;
                 }
 
                 & + li {

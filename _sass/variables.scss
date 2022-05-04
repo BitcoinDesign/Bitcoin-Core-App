@@ -75,3 +75,10 @@ $fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue',
 
 	--primary: #F89B2A;
 }
+
+/* Adjust colors here for more contrast */
+@media (prefers-contrast: more) {
+  .-theme-dark {
+
+  }
+}

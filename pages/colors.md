@@ -9,8 +9,8 @@ nav_order: 4
 # Colors
 
 <div class="theme-toggle">
-	<button class="-active" data-theme="light">Light</button>
-	<button data-theme="dark">Dark</button>
+	<button class="-active" data-theme="light" aria-label="View light theme" aria-pressed="true">Light</button>
+	<button data-theme="dark" aria-label="View dark theme" aria-pressed="false">Dark</button>
 </div>
 
 <ol class="swatches">

@@ -15,6 +15,9 @@ body {
 }
 
 main {
+    padding-left: 15px;
+    padding-right: 15px;
+    
     @include media-query(small) {
         
     }
@@ -28,6 +31,33 @@ main {
 
             article {
                 flex-basis: 800px;
+            }
+        }
+    }
+}
+
+footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+    .wrap {
+        border-top: 1px solid var(--neutral-4);
+        flex-basis: 1050px;
+
+        p {
+            color: var(--neutral-7);
+
+            a {
+                color: var(--neutral-9);
+                text-decoration: none;
+
+                &:hover {
+                    color: var(--primary);
+                    text-decoration: underline;
+                }
             }
         }
     }

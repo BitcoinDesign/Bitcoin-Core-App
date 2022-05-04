@@ -4,6 +4,7 @@
         .theme-toggle {
             display: flex;
             justify-content: center;
+            margin-top: 20px;
 
             button {
                 appearance: none;
@@ -30,10 +31,10 @@
             justify-content: center;
             flex-wrap: wrap;
             gap: 25px;
+            margin-top: 20px;
 
             li {
                 display: flex;
-                flex-basis: 30%;
                 flex-grow: 1;
                 flex-wrap: wrap;
                 align-items: center;
@@ -82,6 +83,58 @@
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+
+    @include media-query(small) {
+        article {
+            .swatches {
+                li {
+                    flex-basis: 40%;
+
+                    &:nth-child(1) { order: 2; }
+                    &:nth-child(2) { order: 4; }
+                    &:nth-child(3) { order: 6; }
+                    &:nth-child(4) { order: 7; }
+                    &:nth-child(5) { order: 10; }
+                    &:nth-child(6) { order: 1; }
+                    &:nth-child(7) { order: 3; }
+                    &:nth-child(8) { order: 5; }
+                    &:nth-child(9) { order: 7; }
+                    &:nth-child(10) { order: 9; }
+                    &:nth-child(11) { order: 11; flex-basis: 100%; }
+                    &:nth-child(12) { order: 12; flex-basis: 100%; }
+                    &:nth-child(13) { order: 13; flex-basis: 100%; }
+                    &:nth-child(14) { order: 14; flex-basis: 100%; }
+                    &:nth-child(15) { order: 15; flex-basis: 100%; }
+                }
+            }
+        }
+    }
+
+    @include media-query(medium-up) {
+        article {
+            .swatches {
+                li {
+                    flex-basis: 30%;
+
+                    &:nth-child(1) { order: 1; }
+                    &:nth-child(2) { order: 4; }
+                    &:nth-child(3) { order: 7; }
+                    &:nth-child(4) { order: 10; }
+                    &:nth-child(5) { order: 13; }
+                    &:nth-child(6) { order: 2; }
+                    &:nth-child(7) { order: 5; }
+                    &:nth-child(8) { order: 8; }
+                    &:nth-child(9) { order: 11; }
+                    &:nth-child(10) { order: 14; }
+                    &:nth-child(11) { order: 3; }
+                    &:nth-child(12) { order: 6; }
+                    &:nth-child(13) { order: 9; }
+                    &:nth-child(14) { order: 12; }
+                    &:nth-child(15) { order: 15; }
                 }
             }
         }
