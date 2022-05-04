@@ -21,6 +21,10 @@
             color: var(--neutral-7);
             line-height: 1.8;
             
+            &:hover {
+                color: var(--primary);
+            }
+            
             &.-active {
                 color: var(--neutral-9);
                 font-weight: 500;
