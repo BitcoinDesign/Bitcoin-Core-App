@@ -1,0 +1,40 @@
+<div id="site-nav">
+
+  <div class="top">
+    <a href="{{ '/' | relative_url }}">
+      <b>Bitcoin Core app</b><br/>Design docs
+    </a>
+    <button id="site-nav-toggle" />
+  </div>
+
+  <nav>
+    <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %} -active{% endif %}">Introduction</a>
+
+    {%- assign section = page.url | replace:'/',' ' | truncatewords: 1,"" -%}
+    {%- assign section = 'pages' -%}
+
+    {%- assign ordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order != nil" | where_exp:"item", "item.path contains section" -%}
+    {%- assign unordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order == nil" | where_exp:"item", "item.path contains section" -%}
+
+    {%- if site.nav_sort == 'case_insensitive' -%}
+      {%- assign sorted_ordered_pages_list = ordered_pages_list | sort_natural:"nav_order" -%}
+      {%- assign sorted_unordered_pages_list = unordered_pages_list | sort_natural:"title" -%}
+    {%- else -%}
+      {%- assign sorted_ordered_pages_list = ordered_pages_list | sort:"nav_order" -%}
+      {%- assign sorted_unordered_pages_list = unordered_pages_list | sort:"title" -%}
+    {%- endif -%}
+
+    {%- assign pages_list = sorted_ordered_pages_list | concat: sorted_unordered_pages_list -%}
+
+
+    {%- for node in pages_list -%}
+
+        {%- if node.parent == nil and node.title -%}
+
+            <a href="{{ node.url | relative_url }}" class="{% if page.url == node.url %} -active{% endif %}">{{ node.title }}</a>
+
+        {%- endif -%}
+
+    {%- endfor -%}
+  </nav>
+</div>

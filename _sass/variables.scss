@@ -7,33 +7,71 @@ $huge_width:               1281px;
 $fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 :root {
-	--back: 13, 13, 15;
-	--front: 255, 255, 255;
-
-	--back-r: 13;
-	--back-g: 13;
-	--back-b: 15;
-
-	--front-r: 255;
-	--front-g: 255;
-	--front-b: 255;
-
-	--backHex: #0D0D0F;
-	--frontHex: #ffffff;
-}
-
-.theme--light {
-	--back: 251, 251, 251;
+	--back: 255, 255, 255;
 	--front: 0, 0, 0;
 
-	--back-r: 251;
-	--back-g: 251;
-	--back-b: 251;
+	--back-r: 255;
+	--back-g: 255;
+	--back-b: 255;
 
 	--front-r: 0;
 	--front-g: 0;
 	--front-b: 0;
 
-	--backHex: #fbfbfb;
+	--backHex: #FFFFFF;
 	--frontHex: #000000;
+
+	--orange: #F7931A;
+	--red: #EB5757;
+	--green: #27AE60;
+	--blue: #2D9CDB;
+	--purple: #BB6BD9;
+
+	--neutral-0: #FFFFFF;
+	--neutral-1: #F8F8F8;
+	--neutral-2: #F4F4F4;
+	--neutral-3: #EDEDED;
+	--neutral-4: #DEDEDE;
+	--neutral-5: #BBBBBB;
+	--neutral-6: #999999;
+	--neutral-7: #777777;
+	--neutral-8: #404040;
+	--neutral-9: #000000;
+
+	--primary: #F7931A;
+}
+
+.-theme-dark {
+	--back: 0, 0, 0;
+	--front: 255, 255, 255;
+
+	--back-r: 0;
+	--back-g: 0;
+	--back-b: 0;
+
+	--front-r: 255;
+	--front-g: 255;
+	--front-b: 255;
+
+	--backHex: #000000;
+	--frontHex: #FFFFFF;
+
+	--orange: #F89B2A;
+	--red: #EC6363;
+	--green: #36B46B;
+	--blue: #3CA3DE;
+	--purple: #C075DC;
+
+	--neutral-0: #000000;
+	--neutral-1: #1A1A1A;
+	--neutral-2: #2D2D2D;
+	--neutral-3: #444444;
+	--neutral-4: #5C5C5C;
+	--neutral-5: #787878;
+	--neutral-6: #949494;
+	--neutral-7: #B0B0B0;
+	--neutral-8: #CCCCCC;
+	--neutral-9: #FFFFFF;
+
+	--primary: #F89B2A;
 }

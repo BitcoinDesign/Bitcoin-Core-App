@@ -1,0 +1,36 @@
+
+.page.-typography {
+    article {
+        .styles {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: flex;
+                flex-wrap: wrap;
+
+                p {
+                    &:nth-child(1) {
+                        flex-basis: 50%;
+                    }
+
+                    &:nth-child(2) {
+                        flex-basis: 50%;
+                        text-align: right;
+                    }
+                }
+
+                *:nth-child(3) {
+                    margin-top: 10px;
+                    padding-top: 10px;
+                    border-top: 1px solid var(--neutral-4);
+                }
+
+                & + li {
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}

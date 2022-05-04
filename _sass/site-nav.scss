@@ -1,0 +1,130 @@
+
+#site-nav {
+    .top {
+        a {
+            display: block;
+            text-decoration: none;
+            color: var(--neutral-7);
+            line-height: 22px;
+
+            b {
+                font-weight: 500;
+                color: var(--neutral-9);
+            }
+        }
+    }
+
+    nav {
+        a {
+            display: block;
+            text-decoration: none;
+            color: var(--neutral-7);
+            line-height: 1.8;
+            
+            &.-active {
+                color: var(--neutral-9);
+                font-weight: 500;
+            }
+        }
+    }
+
+    &.-expanded {
+        .top {
+            button {
+                &:before,
+                &:after {
+                    background-color: var(--primary);
+                }
+
+                &:before {
+                    transform: translate(-50%, -0) rotate(45deg);
+                }
+
+                &:after {
+                    transform: translate(-50%, 0) rotate(-45deg);
+                }
+            }
+        }
+    }
+
+    @include media-query(small) {
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 19px 15px;
+            border-bottom: 1px solid var(--neutral-4);
+
+            button {
+                display: block;
+                position: relative;
+                width: 44px;
+                height: 44px;
+                appearance: none;
+                background-color: transparent;
+                border-width: 0;
+
+                &:before,
+                &:after {
+                    display: block;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    content: '';
+                    width: 24px;
+                    height: 2px;
+                    border-radius: 1px;
+                    background-color: var(--neutral-9);
+                    transition: all 200ms $ease;
+                }
+
+                &:hover {
+                    &:before,
+                    &:after {
+                        background-color: var(--primary);
+                    }
+                }
+
+                &:before {
+                    transform: translate(-50%, -4px);
+                }
+
+                &:after {
+                    transform: translate(-50%, 4px);
+                }
+            }
+        }
+
+        nav {
+            position: absolute;
+            left: 0;
+            top: 83px;
+            width: 100vw;
+            height: 0;
+            overflow: hidden;
+            background-color: var(--neutral-0);
+            transition: height 450ms $ease;
+            padding: 15px;
+        }
+
+        &.-expanded {
+            nav {
+                height: calc(100vh - 83px);
+            }
+        }
+    }
+
+    @include media-query(medium-up) {
+        flex-basis: 200px;
+
+        .top {
+            button {
+                display: none;
+            }
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+    }
+}

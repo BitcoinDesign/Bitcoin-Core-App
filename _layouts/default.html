@@ -5,18 +5,16 @@
 
   <body>
 
-    <main class="page-content" aria-label="Content">
+    <main aria-label="Content">
 
-      <div class="page-content-wrapper">
+      <div class="page{% if page.classes %} {{ page.classes }}{% endif %}" id="top">
 
-        <div class="main{% if page.main_classes %} {{ page.main_classes }}{% endif %}" id="top">
+        {%- include sidebar.html -%}
 
+        <article>
           {{ content }}
-
-        </div>
-
+        </article>
       </div>
-
 
     </main>
 

@@ -1,0 +1,89 @@
+
+.page.-colors {
+    article {
+        .theme-toggle {
+            display: flex;
+            justify-content: center;
+
+            button {
+                appearance: none;
+                background-color: transparent;
+                border-width: 0;
+                color: var(--neutral-7);
+
+                &:hover {
+                    color: var(--primary);
+                }
+
+                &.-active {
+                    font-weight: 500;
+                    color: var(--primary);
+                }
+            }
+        }
+
+        .swatches {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+
+            li {
+                display: flex;
+                flex-basis: 30%;
+                flex-grow: 1;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 15px;
+
+                div {
+                    &:nth-child(1) {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 5px;
+
+                        &.-orange { background-color: var(--orange); }
+                        &.-red { background-color: var(--red); }
+                        &.-green { background-color: var(--green); }
+                        &.-blue { background-color: var(--blue); }
+                        &.-purple { background-color: var(--purple); }
+
+                        &.-neutral-9 { background-color: var(--neutral-9); }
+                        &.-neutral-8 { background-color: var(--neutral-8); }
+                        &.-neutral-7 { background-color: var(--neutral-7); }
+                        &.-neutral-6 { background-color: var(--neutral-6); }
+                        &.-neutral-5 { background-color: var(--neutral-5); }
+                        &.-neutral-4 { background-color: var(--neutral-4); }
+                        &.-neutral-3 { background-color: var(--neutral-3); }
+                        &.-neutral-2 { background-color: var(--neutral-2); }
+                        &.-neutral-1 { background-color: var(--neutral-1); }
+                        &.-neutral-0 { background-color: var(--neutral-0); }
+                    }
+
+                    &:nth-child(2) {
+                        p {
+                            &:nth-child(1) {
+                                color: var(--neutral-9);   
+                            }
+
+                            &:nth-child(2) {
+                                
+                            }
+
+                            &.-light {
+
+                            }
+
+                            &.-dark {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
