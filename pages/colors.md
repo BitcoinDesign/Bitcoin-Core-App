@@ -8,6 +8,10 @@ nav_order: 4
 
 # Colors
 
+The color scheme is intentionally kept simple. There are 10 neutral shades that are used for the majority of elements, and 5 colors used for highlights.
+
+The scheme has two variations, for dark and light modes.
+
 <div class="theme-toggle">
 	<button class="-active" data-theme="light" aria-label="View light theme" aria-pressed="true">Light</button>
 	<button data-theme="dark" aria-label="View dark theme" aria-pressed="false">Dark</button>
