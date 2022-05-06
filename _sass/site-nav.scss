@@ -11,6 +11,14 @@
                 font-weight: 500;
                 color: var(--neutral-9);
             }
+            
+            &:hover {
+                color: var(--primary);
+
+                b {
+                    color: var(--primary);
+                }
+            }
         }
     }
 

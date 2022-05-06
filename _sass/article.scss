@@ -101,9 +101,23 @@ article {
         }
     }
 
-    img {
+    > p > img {
         margin-top: 10px;
         max-width: 100%;
         height: auto;
+    }
+
+    figure {
+        margin: 10px 0 0 0;
+        width: 100%;
+
+        picture {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
     }
 }
