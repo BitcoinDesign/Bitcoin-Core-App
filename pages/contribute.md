@@ -10,3 +10,5 @@ nav_order: 10
 [Bitcoin Core website](https://bitcoincore.org)
 
 [Design repo](https://github.com/BitcoinDesign/Bitcoin-Core-App)
+
+[Figma file](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/Bitcoin-Core-App)
