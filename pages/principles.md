@@ -2,7 +2,7 @@
 layout: default
 title: Principles
 permalink: /principles/
-nav_order: 3
+nav_order: 2
 ---
 
 # Principles
@@ -28,8 +28,18 @@ For broadest accessibility, the application should adapt seamlessly to platforms
 
 ## Universal design
 
-While a bitcoin wallet for children can be playful and creative, this application is meant to be visually neutral. Accessibility & ease of use are priority over creative visual expression, so decisions on visual styling should be based on function (not just technical, but also cognitive, etc). 
+While a bitcoin wallet for children can be playful and creative, this application is meant to be visually neutral. Accessibility & ease of use are priority over creative visual expression. For example, decisions on visual styling should be based on function (not just technical, but also cognitive, etc). "[Form follows function](https://en.wikipedia.org/wiki/Form_follows_function)", if you will.
 
 ## Open design
 
 Just like the application code, the design is intended to be collaborated on openly and collaboratively. Design tools are not as sophisticated as development tools, so git-style collaboration is not possible. But we can still work with the tools we have and find workarounds for the gaps. For more, see [contribute]({{ '/contribute/' | relative_url }}).
+
+## Use cases
+
+Oftentimes, application design struggles with the balance of simplicity for regular users with complexity for users who want more control. We can address this by intelligently layering the experience.
+
+1. The application should provide a "happy path" that is simple and convenient and allows the majority of users to quickly get started. Clear explanations that focus on the primary benefits and things to know, reducing options via smart defaults and recommendations, and good support when users get stuck are helpful here.
+2. The happy path should allow access to more in-depth settings and options, so users can go deeper if they want to. These should be fairly easy to access, but also easy to ignore, and not crucial to usage of the primary functions.
+3. To provide a great developer experience, certain settings and options should be accessible in a way that does not clutter up or distract the other paths, but allows developers to be effective. It is also helpful for designers to be able to launch an application in a certain state to evaluate the experience.
+
+We can embed this pattern in the basic UI architecture. The specific decisions as to which detail goes where will likely change over time.

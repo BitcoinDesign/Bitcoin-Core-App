@@ -2,7 +2,7 @@
 layout: default
 title: Layout
 permalink: /layout/
-nav_order: 8
+nav_order: 7
 ---
 
 # Layout

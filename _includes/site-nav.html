@@ -31,7 +31,7 @@
 
         {%- if node.parent == nil and node.title -%}
 
-            <a href="{{ node.url | relative_url }}" class="{% if page.url == node.url %} -active{% endif %}">{{ node.title }}</a>
+            <a href="{{ node.url | relative_url }}" class="{% if page.url == node.url %} -active{% endif %}{% if node.divider == true %} -divider{% endif %}">{{ node.title }}</a>
 
         {%- endif -%}
 

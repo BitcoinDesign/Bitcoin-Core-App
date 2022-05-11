@@ -3,7 +3,7 @@ layout: default
 title: Colors
 permalink: /colors/
 classes: -colors
-nav_order: 4
+nav_order: 3
 ---
 
 # Colors

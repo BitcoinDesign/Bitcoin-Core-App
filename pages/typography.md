@@ -3,7 +3,7 @@ layout: default
 title: Typography
 permalink: /typography/
 classes: -typography
-nav_order: 5
+nav_order: 4
 ---
 
 # Typography
