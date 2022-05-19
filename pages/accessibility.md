@@ -11,9 +11,13 @@ The application should be as usable by as many people as possible. For more, rea
 
 A few things to consider:
 
+- Visual highlight for focused state of UI elements
+- Clear accessibility labels of UI elements
+- Multi-sensory feedback on interactions
+- Alternate interaction options
 - Sufficient visual contrast
-- Voice over support
-- Keyboard navigation
-- Dynamic text size
+- Support dynamic text size
 - Simple, clear language
+- Keyboard navigation
+- Voice over support
 - Localization

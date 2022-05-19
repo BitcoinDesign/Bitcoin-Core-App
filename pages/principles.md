@@ -11,24 +11,15 @@ Design principles, or design philosophies, are helpful when making decisions lar
 
 ## [Accessibility]({{ '/accessibility/' | relative_url }})
 
-To allow as many people as possible to use the application, the design (and implementation) should be highly accessible. This can take on many dimensions:
-
-- Sufficient visual contrast
-- Voice over support
-- Keyboard navigation
-- Dynamic text size
-- Simple, clear language
-- Localization
-
-Getting these right can allow people in non-optimal situations to still successfully navigate and interact with bitcoin.
+To allow as many people as possible to use the application, the design (and implementation) should be highly accessible. Getting these right can allow people in non-optimal situations to still successfully navigate and interact with bitcoin. This also includes supporting a broad range of device types and operating systems.
 
 ## Responsive design
 
-For broadest accessibility, the application should adapt seamlessly to platforms and operating systems. There are practical limits for technical reasons, as well as differences in UX patterns of different environments.
+For broadest accessibility, the application should adapt seamlessly to platforms and operating systems. There are practical limits for technical reasons, as well as differences in UX patterns of different environments. Responsive design should also consider accessibility preferences like text size preferences.
 
 ## Universal design
 
-While a bitcoin wallet for children can be playful and creative, this application is meant to be visually neutral. Accessibility & ease of use are priority over creative visual expression. For example, decisions on visual styling should be based on function (not just technical, but also cognitive, etc). "[Form follows function](https://en.wikipedia.org/wiki/Form_follows_function)", if you will.
+While a bitcoin wallet for children can be playful and creative, this application is meant to be visually neutral. Accessibility & ease of use are priority over creative visual expression. That does not mean it should be plain, but that "form follows function](https://en.wikipedia.org/wiki/Form_follows_function)". [Illustrations]({{ '/illustrations/' | relative_url }}), for example, should convey information that helps users better understand the UI and make more informed decisions. Good design is intentional.
 
 ## Open design
 
@@ -39,7 +30,9 @@ Just like the application code, the design is intended to be collaborated on ope
 Oftentimes, application design struggles with the balance of simplicity for regular users with complexity for users who want more control. We can address this by intelligently layering the experience.
 
 1. The application should provide a "happy path" that is simple and convenient and allows the majority of users to quickly get started. Clear explanations that focus on the primary benefits and things to know, reducing options via smart defaults and recommendations, and good support when users get stuck are helpful here.
+
 2. The happy path should allow access to more in-depth settings and options, so users can go deeper if they want to. These should be fairly easy to access, but also easy to ignore, and not crucial to usage of the primary functions.
+
 3. To provide a great developer experience, certain settings and options should be accessible in a way that does not clutter up or distract the other paths, but allows developers to be effective. It is also helpful for designers to be able to launch an application in a certain state to evaluate the experience.
 
-We can embed this pattern in the basic UI architecture. The specific decisions as to which detail goes where will likely change over time.
+We can embed this pattern in the basic UI architecture. The specific decisions as to which detail goes where will likely change over time as the application is refined with more user feedback. We may also decide to present users with different options based on whether they are on desktop or mobile. The pattern of having users choose between a "simple" and an "advanced" mode was considered, but decided against.

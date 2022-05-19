@@ -7,7 +7,7 @@ nav_order: 7
 
 # Layout
 
-The application layout is responsive to the window size, across both mobile and desktop. A set of simple rules is used to ensure broadly balanced layouts.
+The application layout is responsive to the window size, across both mobile and desktop. A set of simple rules is used to ensure broadly balanced layouts. The rules were intentionally kept very simple for the first designs and can be iterated on over time.
 
 Rules include:
 - Vertical spacing of content elements

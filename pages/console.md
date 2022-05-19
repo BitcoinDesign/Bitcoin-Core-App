@@ -7,7 +7,7 @@ nav_order: 13
 
 # Console
 
-These are initial designs for a console feature in the application. Probably need a lot more refinement and conversation.
+These are initial designs for a console feature in the application. Probably need a lot more refinement and conversation. Developer are the primary users of this feature and their feedback should drive the design and interactions.
 
 {% include picture.html
 	image = "/assets/images/console/console.png"
