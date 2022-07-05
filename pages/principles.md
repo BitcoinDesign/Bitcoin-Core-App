@@ -15,7 +15,7 @@ To allow as many people as possible to use the application, the design (and impl
 
 ## Responsive design
 
-For broadest accessibility, the application should adapt seamlessly to platforms and operating systems. There are practical limits for technical reasons, as well as differences in UX patterns of different environments. Responsive design should also consider accessibility preferences like text size preferences.
+For broadest accessibility, the application should adapt seamlessly to platforms and operating systems. There are practical limits for technical reasons, as well as differences in UX patterns of different environments. Responsive design should also consider accessibility preferences like text size preferences. Also see [layout]({{ '/layout/' | relative_url }}).
 
 ## Universal design
 
@@ -25,7 +25,7 @@ While a bitcoin wallet for children can be playful and creative, this applicatio
 
 Just like the application code, the design is intended to be collaborated on openly and collaboratively. Design tools are not as sophisticated as development tools, so git-style collaboration is not possible. But we can still work with the tools we have and find workarounds for the gaps. For more, see [contribute]({{ '/contribute/' | relative_url }}).
 
-## Use cases
+## Simplicity with depth
 
 Oftentimes, application design struggles with the balance of simplicity for regular users with complexity for users who want more control. We can address this by intelligently layering the experience.
 

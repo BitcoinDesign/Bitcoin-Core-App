@@ -8,6 +8,10 @@ article {
         & + p {
             margin-top: 10px;
         }
+
+        &:not(:first-child) {
+            margin-top: 20px;
+        }
     }
 
     h1 {
@@ -116,7 +120,7 @@ article {
     }
 
     figure {
-        margin: 10px 0 0 0;
+        margin: 20px 0 0 0;
         width: 100%;
 
         picture {

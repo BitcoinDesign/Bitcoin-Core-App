@@ -7,8 +7,10 @@ nav_order: 9
 
 # Contribute
 
-[Bitcoin Core website](https://bitcoincore.org)
+This effort is part of the larger [Bitcoin Core](https://bitcoincore.org) project and community, which is about creating and maintaining reference implementations of bitcoin.
 
-[Design repo](https://github.com/BitcoinDesign/Bitcoin-Core-App)
+You can find the application code in this [Github repo](https://github.com/bitcoin-core/gui-qml).
 
-[Figma file](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/Bitcoin-Core-App)
+For hosting this website and managing design requests and discussions, we use this [Github repo](https://github.com/BitcoinDesign/Bitcoin-Core-App).
+
+The main design source is this [Figma file](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/Bitcoin-Core-App).

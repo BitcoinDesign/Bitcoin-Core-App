@@ -46,3 +46,9 @@ Every element in the block clock has a function. They can be combined to communi
 	width = 800
 	height = 419
 %}
+
+## Prototype
+
+This web prototype was done to validate if the block clock dial renders well with realistic data (or if segments get too small), to explore animations & interactions, and test widgets.
+
+[Prototype](https://stupefied-jones-dd209f.netlify.app), [Source](https://github.com/GBKS/bitcoin-core-tng-ui-tests)
