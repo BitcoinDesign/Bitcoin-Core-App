@@ -43,23 +43,14 @@ Since the application requires a lot of storage, we may want to offer users some
 	height = 417
 %}
 
+The first use ends with the initial block download. It's a time-consuming activity that users are typically not familiar with from other applications. The following screen ensures that they understand what will happen next, when they will navigate the application independently.
+
 Bandwidth may also be limited or expensive for the user, particularly on mobile. The initial block download is particularly problematic, so we may want to ensure that users are guided towards the best option.
 
 {% include picture.html
-	image = "/assets/images/first-use/connection.png"
-	retina = "/assets/images/first-use/connection@2x.png"
-	big = "/assets/images/first-use/connection-big.png"
-	alt-text = ""
-	width = 800
-	height = 417
-%}
-
-The first use ends with the initial block download. It's a time-consuming activity that users are typically not familiar with from other applications. The following screen ensures that they understand what will happen next, when they will navigate the application independently.
-
-{% include picture.html
-	image = "/assets/images/first-use/ibd-info.png"
-	retina = "/assets/images/first-use/ibd-info@2x.png"
-	big = "/assets/images/first-use/ibd-info-big.png"
+	image = "/assets/images/first-use/ibd-and-connection.png"
+	retina = "/assets/images/first-use/ibd-and-connection@2x.png"
+	big = "/assets/images/first-use/ibd-and-connection-big.png"
 	alt-text = ""
 	width = 800
 	height = 417
