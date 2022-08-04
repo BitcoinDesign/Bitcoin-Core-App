@@ -21,7 +21,7 @@
 title: Bitcoin Core App design docs
 description: >- # this means to ignore newlines until "baseurl:"
   Design documentation for the Bitcoin Core QML application.
-baseurl: "/Bitcoin-Core-App" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  bitcoindesign
 
