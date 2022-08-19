@@ -55,3 +55,5 @@ Bandwidth may also be limited or expensive for the user, particularly on mobile.
 	width = 800
 	height = 417
 %}
+
+After these onboarding steps, users are navigated to the [block clock]({{ '/block-clock/' | relative_url }}), which then connects to the network and starts the initial block download.

@@ -9,3 +9,13 @@ nav_order: 6
 
 While [icons]({{ '/icons/' | relative_url }}) are small symbols to communicate single concepts, illustrations are larger, be more expressive, and convey more complex ideas.
 
+Below are the three illustrations used during the V1 [first-use]({{ '/first-use/' | relative_url }}) process. They represent "network", "block clock", and "initial block download".
+
+{% include picture.html
+	image = "/assets/images/onboarding-illustrations.png"
+	retina = "/assets/images/onboarding-illustrations@2x.png"
+	big = "/assets/images/onboarding-illustrations-big.png"
+	alt-text = ""
+	width = 800
+	height = 599
+%}
