@@ -11,6 +11,7 @@ These are work-in-progress design documents for the QML-based Bitcoin Core appli
 
 - [Bitcoin Core website](https://bitcoincore.org)
 - [Design repo](https://github.com/BitcoinDesign/Bitcoin-Core-App)
+- [Current design tasks](https://github.com/orgs/BitcoinDesign/projects/5/views/1)
 - [Figma file](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/Bitcoin-Core-App)
 - [Code repository](https://github.com/bitcoin-core/gui-qml)
 

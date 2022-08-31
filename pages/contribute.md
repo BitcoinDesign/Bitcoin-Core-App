@@ -21,7 +21,7 @@ Necessarily, we use several distinct tools to collaborate.
 
 - For real-time chat, we use the [#bitcoin-core-app](https://bitcoindesign.slack.com/archives/C03PFUA4CG0) channel in the [Bitcoin Design](https://bitcoin.design/) Slack.
 - Design collaboration happens in Figma in [this file](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/Bitcoin-Core-App).
-- Some design tasks are discussed via issues in the [BitcoinDesign/Bitcoin-Core-App](https://github.com/BitcoinDesign/Bitcoin-Core-App/issues) Github repo.
+- Current design tasks are tracked via a Github project [here](https://github.com/orgs/BitcoinDesign/projects/5/views/1).
 - Development happens in the [bitcoin-core/gui-qml](https://github.com/bitcoin-core/gui-qml) Github repo. You can test and review ongoing development there.
 - Every Wednesday, we have a general project call to discuss progress.
 - Every Thursday, we have a design collaboration call for hands-on design work.
