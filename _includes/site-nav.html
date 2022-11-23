@@ -26,14 +26,11 @@
 
     {%- assign pages_list = sorted_ordered_pages_list | concat: sorted_unordered_pages_list -%}
 
-
     {%- for node in pages_list -%}
 
-        {%- if node.parent == nil and node.title -%}
-
-            <a href="{{ node.url | relative_url }}" class="{% if page.url == node.url %} -active{% endif %}{% if node.divider == true %} -divider{% endif %}">{{ node.title }}</a>
-
-        {%- endif -%}
+      {%- if node.parent == nil and node.title -%}
+        <a href="{{ node.url | relative_url }}" class="{% if page.url == node.url %}-active{% endif %}{% if node.header %} -header{% endif %}">{{ node.title }}</a>
+      {%- endif -%}
 
     {%- endfor -%}
   </nav>

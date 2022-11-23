@@ -2,7 +2,7 @@
 layout: default
 title: Contribute
 permalink: /contribute/
-nav_order: 9
+nav_order: 2
 ---
 
 # Contribute

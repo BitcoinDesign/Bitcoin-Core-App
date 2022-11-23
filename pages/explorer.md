@@ -2,7 +2,7 @@
 layout: default
 title: Explorer
 permalink: /explorer/
-nav_order: 12
+nav_order: 17
 ---
 
 # Explorer

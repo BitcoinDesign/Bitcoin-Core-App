@@ -11,10 +11,10 @@ The long-term goal for the application is to become a full-featured bitcoin wall
 
 ## Internal versions
 
-The first internal version will be a desktop-only node runner. 
+The [first version]({{ '/v1/' | relative_url }}) will be a simple node runner for desktop and mobile Android. 
 
 ![]({{ '/assets/images/cross-platform-layouts.png' | relative_url }})
 
-Future versions will works towards broader platform support and wallet features.
+The big [version 2]({{ '/v2/' | relative_url }}) will works towards broader platform support and wallet features.
 
 ![]({{ '/assets/images/bitcoin-core-app-versions.png' | relative_url }})

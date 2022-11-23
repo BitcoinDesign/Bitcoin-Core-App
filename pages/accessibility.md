@@ -2,7 +2,7 @@
 layout: default
 title: Accessibility
 permalink: /accessibility/
-nav_order: 8
+nav_order: 11
 ---
 
 # Accessibility
