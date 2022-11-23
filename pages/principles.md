@@ -2,7 +2,7 @@
 layout: default
 title: Principles
 permalink: /principles/
-nav_order: 2
+nav_order: 5
 ---
 
 # Principles

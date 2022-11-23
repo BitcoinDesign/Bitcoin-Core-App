@@ -3,6 +3,7 @@
     .top {
         a {
             display: block;
+            padding: 0 15px;
             text-decoration: none;
             color: var(--neutral-7);
             line-height: 22px;
@@ -25,9 +26,16 @@
     nav {
         a {
             display: block;
+            padding: 6px 15px;
             text-decoration: none;
             color: var(--neutral-7);
-            line-height: 1.8;
+            line-height: 24px;
+
+            &.-header {
+                margin-top: 20px;
+                color: var(--neutral-9);
+                font-weight: 600;
+            }
             
             &:hover {
                 color: var(--primary);
@@ -35,11 +43,7 @@
             
             &.-active {
                 color: var(--neutral-9);
-                font-weight: 500;
-            }
-
-            &.-divider {
-                margin-top: 20px;
+                background-color: var(--neutral-2);
             }
         }
     }
@@ -68,7 +72,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 19px 15px;
+            padding: 19px 15px 19px 0;
             border-bottom: 1px solid var(--neutral-4);
 
             button {
@@ -120,7 +124,7 @@
             overflow: hidden;
             background-color: var(--neutral-0);
             transition: height 450ms $ease;
-            padding: 15px;
+            padding: 15px 0;
         }
 
         &.-expanded {

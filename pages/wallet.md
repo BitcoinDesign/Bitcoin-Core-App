@@ -2,7 +2,7 @@
 layout: default
 title: Wallet
 permalink: /wallet/
-nav_order: 14
+nav_order: 16
 ---
 
 # Wallet

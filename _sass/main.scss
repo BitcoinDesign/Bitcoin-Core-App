@@ -15,14 +15,20 @@ body {
 }
 
 main {
-    padding-left: 15px;
-    padding-right: 15px;
-    
     @include media-query(small) {
-        
+        .page {
+            article {
+                padding-top: 20px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }        
     }
 
     @include media-query(medium-up) {
+        padding-left: 15px;
+        padding-right: 15px;
+
         .page {
             display: flex;
             gap: 50px;

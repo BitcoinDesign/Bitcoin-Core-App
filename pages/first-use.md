@@ -2,8 +2,7 @@
 layout: default
 title: First use
 permalink: /first-use/
-nav_order: 10
-divider: true
+nav_order: 13
 ---
 
 # First use
