@@ -130,6 +130,7 @@ article {
     figure {
         margin: 20px 0 0 0;
         width: 100%;
+        line-height: 0;
 
         picture {
             width: 100%;
@@ -138,6 +139,10 @@ article {
                 width: 100%;
                 height: auto;
             }
+        }
+
+        & + p {
+            margin-top: 20px;
         }
     }
 }
