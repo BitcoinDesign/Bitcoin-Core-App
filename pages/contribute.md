@@ -36,8 +36,8 @@ Figma does not offer tools to systematically propose, review and merge changes i
 - We have one main [Figma file](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/Bitcoin-Core-App). Everyone can view this, but only regular design contributors have edit access.
 - There are two main pages (one for each version of the application) that include the latest agreed-upon designs.
 - There is a design system page includes all the common colors, icons, text styles, components, etc.
-- Every contributor has their own "Workspace" page to put together proposals to improve the design. This should only be used for proposals that build on the design system to avoid breaking it (by accidentally changing components and styles). Broader explorations should happen in separate files (or other tools, whatever you prefer).
-- Agreed-upon changes should be merged into the main and/or design system pages.
+- The file is published on Figma Community [here](https://www.figma.com/community/file/1185218794459295422). Contributors should duplicate this file to put together proposals to improve the design. They can share those new files (or exports) with everyone for discussion.
+- Agreed-upon changes should be merged into the main file, which is then republished.
 - Changes should be exported to these design docs here. The "Design docs page" includes all the visuals that are exported to this site, so they can easily be updated later if needed.
 
 There is a lot of manual work and communication involved in this. Agreeing on changes is pretty fluent right now and can happen in various places. This is partially due to the project being in a very early stage.
