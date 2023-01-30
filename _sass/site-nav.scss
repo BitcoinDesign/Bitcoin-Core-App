@@ -30,6 +30,7 @@
             text-decoration: none;
             color: var(--neutral-7);
             line-height: 24px;
+            transition: background-color 150ms $ease;
 
             &.-header {
                 margin-top: 20px;

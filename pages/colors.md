@@ -27,6 +27,22 @@ The scheme has two variations, for dark and light modes.
 		</div>
 	</li>
 	<li>
+		<div class="-orange-light-1"></div>
+		<div class="copy">
+			<p>Orange light 1</p>
+			<p class="-light">#FFAD4A</p>
+			<p class="-dark">#FFBF72</p>
+		</div>
+	</li>
+	<li>
+		<div class="-orange-light-2"></div>
+		<div class="copy">
+			<p>Orange light 2</p>
+			<p class="-light">#FFAD4A</p>
+			<p class="-dark">#FFBF72</p>
+		</div>
+	</li>
+	<li>
 		<div class="-red"></div>
 		<div class="copy">
 			<p>Red</p>
@@ -138,4 +154,8 @@ The scheme has two variations, for dark and light modes.
 			<p class="-dark">#000000</p>
 		</div>
 	</li>
+	<li class="-placeholder" />
+	<li class="-placeholder" />
+	<li class="-placeholder" />
+	<li class="-placeholder" />
 </ol>

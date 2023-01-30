@@ -12,6 +12,7 @@ html {
 
 body {
     background-color: var(--neutral-0);
+    transition: background-color 150ms $ease;
 }
 
 main {

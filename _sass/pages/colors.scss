@@ -38,15 +38,17 @@
                 flex-grow: 1;
                 flex-wrap: wrap;
                 align-items: center;
-                gap: 15px;
 
                 div {
                     &:nth-child(1) {
-                        width: 100px;
                         height: 100px;
                         border-radius: 5px;
+                        box-sizing: border-box;
+                        transition: background-color 150ms $ease;
 
                         &.-orange { background-color: var(--orange); }
+                        &.-orange-light-1 { background-color: var(--orange-light-1); }
+                        &.-orange-light-2 { background-color: var(--orange-light-2); }
                         &.-red { background-color: var(--red); }
                         &.-green { background-color: var(--green); }
                         &.-blue { background-color: var(--blue); }
@@ -70,14 +72,6 @@
                                 color: var(--neutral-9);   
                             }
 
-                            &:nth-child(2) {
-                                
-                            }
-
-                            &.-light {
-
-                            }
-
                             &.-dark {
                                 display: none;
                             }
@@ -88,32 +82,18 @@
         }
     }
 
+    // Two columns
     @include media-query(small) {
         article {
             .swatches {
                 li {
                     flex-basis: 40%;
-
-                    &:nth-child(1) { order: 2; }
-                    &:nth-child(2) { order: 4; }
-                    &:nth-child(3) { order: 6; }
-                    &:nth-child(4) { order: 7; }
-                    &:nth-child(5) { order: 10; }
-                    &:nth-child(6) { order: 1; }
-                    &:nth-child(7) { order: 3; }
-                    &:nth-child(8) { order: 5; }
-                    &:nth-child(9) { order: 7; }
-                    &:nth-child(10) { order: 9; }
-                    &:nth-child(11) { order: 11; flex-basis: 100%; }
-                    &:nth-child(12) { order: 12; flex-basis: 100%; }
-                    &:nth-child(13) { order: 13; flex-basis: 100%; }
-                    &:nth-child(14) { order: 14; flex-basis: 100%; }
-                    &:nth-child(15) { order: 15; flex-basis: 100%; }
                 }
             }
         }
     }
 
+    // Three columns
     @include media-query(medium-up) {
         article {
             .swatches {
@@ -125,16 +105,85 @@
                     &:nth-child(3) { order: 7; }
                     &:nth-child(4) { order: 10; }
                     &:nth-child(5) { order: 13; }
-                    &:nth-child(6) { order: 2; }
-                    &:nth-child(7) { order: 5; }
-                    &:nth-child(8) { order: 8; }
-                    &:nth-child(9) { order: 11; }
-                    &:nth-child(10) { order: 14; }
-                    &:nth-child(11) { order: 3; }
-                    &:nth-child(12) { order: 6; }
-                    &:nth-child(13) { order: 9; }
-                    &:nth-child(14) { order: 12; }
-                    &:nth-child(15) { order: 15; }
+                    &:nth-child(6) { order: 16; }
+                    &:nth-child(7) { order: 19; }
+                    &:nth-child(8) { order: 2; }
+                    &:nth-child(9) { order: 5; }
+                    &:nth-child(10) { order: 8; }
+                    &:nth-child(11) { order: 11; }
+                    &:nth-child(12) { order: 14; }
+                    &:nth-child(13) { order: 3; }
+                    &:nth-child(14) { order: 6; }
+                    &:nth-child(15) { order: 9; }
+                    &:nth-child(16) { order: 12; }
+                    &:nth-child(17) { order: 15; }
+                    &:nth-child(18) { order: 17; }
+                    &:nth-child(19) { order: 18; }
+                    &:nth-child(20) { order: 20; }
+                    &:nth-child(21) { order: 21; }
+                }
+            }
+        }
+    }
+
+    // Horizontal swatch layout
+    @include media-query(large) {
+        article {
+            .swatches {
+                li {
+                    gap: 15px;
+
+                    div {
+                        &:nth-child(1) {
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Vertical swatch layout
+    @include media-query(medium-down) {
+        article {
+            .swatches {
+                li {
+                    flex-direction: column;
+                    align-items: stretch;
+
+                    p {
+                        &:first-child {
+                            margin-top: 15px;
+                        }
+
+                        & + p {
+                            margin-top: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body.-theme-dark {
+    .page.-colors {
+        article {
+            .swatches {
+                li {
+                    div {
+                        &:nth-child(2) {
+                            p {
+                                &.-light {
+                                    display: none;
+                                }
+
+                                &.-dark {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
