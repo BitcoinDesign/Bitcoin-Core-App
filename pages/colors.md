@@ -8,7 +8,7 @@ nav_order: 6
 
 # Colors
 
-The color scheme is intentionally kept simple. There are 10 neutral shades that are used for the majority of elements, and 5 colors used for highlights.
+The color scheme is intentionally kept simple. Generally, there are 10 neutral shades that are used for the majority of elements, and 5 colors used for highlights. Minor variations have been added for specific purposes like interactive states and unique components.
 
 The scheme has two variations, for dark and light modes.
 
@@ -17,7 +17,11 @@ The scheme has two variations, for dark and light modes.
 	<button data-theme="dark" aria-label="View dark theme" aria-pressed="false">Dark</button>
 </div>
 
-<ol class="swatches">
+## Primary & accents
+
+Orange is the primary color used to indicate interactive elements. Orange light 1 & 2 are used for interaction states (hover, press). The other colors are used more freely.
+
+<ol class="swatches -primary">
 	<li>
 		<div class="-orange"></div>
 		<div class="copy">
@@ -74,6 +78,13 @@ The scheme has two variations, for dark and light modes.
 			<p class="-dark">#F7931A</p>
 		</div>
 	</li>
+	<li class="-placeholder" />
+	<li class="-placeholder" />
+</ol>
+
+## Neutrals
+
+<ol class="swatches -neutrals">
 	<li>
 		<div class="-neutral-9"></div>
 		<div class="copy">
@@ -156,6 +167,59 @@ The scheme has two variations, for dark and light modes.
 	</li>
 	<li class="-placeholder" />
 	<li class="-placeholder" />
-	<li class="-placeholder" />
-	<li class="-placeholder" />
+</ol>
+
+## Confirmations
+
+These are used in the [block clock]({{ '/block-clock/' | relative_url }}) and may potentially be used in future UI additions to represent the number of confirmations a block or transaction has.
+
+<ol class="swatches -confirmations">
+	<li>
+		<div class="-confirmations-1"></div>
+		<div class="copy">
+			<p>Confirmations 1</p>
+			<p class="-light">#FF1C1C</p>
+			<p class="-dark">#FF1C1C</p>
+		</div>
+	</li>
+	<li>
+		<div class="-confirmations-2"></div>
+		<div class="copy">
+			<p>Confirmations 2</p>
+			<p class="-light">#ED6E46</p>
+			<p class="-dark">#ED6E46</p>
+		</div>
+	</li>
+	<li>
+		<div class="-confirmations-3"></div>
+		<div class="copy">
+			<p>Confirmations 3</p>
+			<p class="-light">#EE8847</p>
+			<p class="-dark">#EE8847</p>
+		</div>
+	</li>
+	<li>
+		<div class="-confirmations-4"></div>
+		<div class="copy">
+			<p>Confirmations 4</p>
+			<p class="-light">#EFA148</p>
+			<p class="-dark">#EFA148</p>
+		</div>
+	</li>
+	<li>
+		<div class="-confirmations-5"></div>
+		<div class="copy">
+			<p>Confirmations 5</p>
+			<p class="-light">#F0BB49</p>
+			<p class="-dark">#F0BB49</p>
+		</div>
+	</li>
+	<li>
+		<div class="-confirmations-6"></div>
+		<div class="copy">
+			<p>Confirmations 6</p>
+			<p class="-light">#F1D54A</p>
+			<p class="-dark">#F1D54A</p>
+		</div>
+	</li>
 </ol>

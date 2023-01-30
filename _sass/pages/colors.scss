@@ -64,6 +64,13 @@
                         &.-neutral-2 { background-color: var(--neutral-2); }
                         &.-neutral-1 { background-color: var(--neutral-1); }
                         &.-neutral-0 { background-color: var(--neutral-0); }
+
+                        &.-confirmations-1 { background-color: var(--confirmations-1); }
+                        &.-confirmations-2 { background-color: var(--confirmations-2); }
+                        &.-confirmations-3 { background-color: var(--confirmations-3); }
+                        &.-confirmations-4 { background-color: var(--confirmations-4); }
+                        &.-confirmations-5 { background-color: var(--confirmations-5); }
+                        &.-confirmations-6 { background-color: var(--confirmations-6); }
                     }
 
                     &:nth-child(2) {
@@ -100,27 +107,44 @@
                 li {
                     flex-basis: 30%;
 
-                    &:nth-child(1) { order: 1; }
-                    &:nth-child(2) { order: 4; }
-                    &:nth-child(3) { order: 7; }
-                    &:nth-child(4) { order: 10; }
-                    &:nth-child(5) { order: 13; }
-                    &:nth-child(6) { order: 16; }
-                    &:nth-child(7) { order: 19; }
-                    &:nth-child(8) { order: 2; }
-                    &:nth-child(9) { order: 5; }
-                    &:nth-child(10) { order: 8; }
-                    &:nth-child(11) { order: 11; }
-                    &:nth-child(12) { order: 14; }
-                    &:nth-child(13) { order: 3; }
-                    &:nth-child(14) { order: 6; }
-                    &:nth-child(15) { order: 9; }
-                    &:nth-child(16) { order: 12; }
-                    &:nth-child(17) { order: 15; }
-                    &:nth-child(18) { order: 17; }
-                    &:nth-child(19) { order: 18; }
-                    &:nth-child(20) { order: 20; }
-                    &:nth-child(21) { order: 21; }
+                    // &:nth-child(1) { order: 1; }
+                    // &:nth-child(2) { order: 4; }
+                    // &:nth-child(3) { order: 7; }
+                    // &:nth-child(4) { order: 10; }
+                    // &:nth-child(5) { order: 13; }
+                    // &:nth-child(6) { order: 16; }
+                    // &:nth-child(7) { order: 19; }
+                    // &:nth-child(8) { order: 2; }
+                    // &:nth-child(9) { order: 5; }
+                    // &:nth-child(10) { order: 8; }
+                    // &:nth-child(11) { order: 11; }
+                    // &:nth-child(12) { order: 14; }
+                    // &:nth-child(13) { order: 3; }
+                    // &:nth-child(14) { order: 6; }
+                    // &:nth-child(15) { order: 9; }
+                    // &:nth-child(16) { order: 12; }
+                    // &:nth-child(17) { order: 15; }
+                    // &:nth-child(18) { order: 17; }
+                    // &:nth-child(19) { order: 18; }
+                    // &:nth-child(20) { order: 20; }
+                    // &:nth-child(21) { order: 21; }
+                }
+
+                &.-neutrals {
+                    li {
+                        &:nth-child(1) { order: 1; }
+                        &:nth-child(2) { order: 4; }
+                        &:nth-child(3) { order: 7; }
+                        &:nth-child(4) { order: 10; }
+                        &:nth-child(5) { order: 2; }
+                        &:nth-child(6) { order: 5; }
+                        &:nth-child(7) { order: 8; }
+                        &:nth-child(8) { order: 3; }
+                        &:nth-child(9) { order: 6; }
+                        &:nth-child(10) { order: 9; }
+                        &:nth-child(11) { order: 11; }
+                        &:nth-child(12) { order: 12; }
+                    }
                 }
             }
         }
