@@ -15,6 +15,6 @@ The [first version]({{ '/v1/' | relative_url }}) will be a simple node runner fo
 
 ![]({{ '/assets/images/cross-platform-layouts.png' | relative_url }})
 
-The big [version 2]({{ '/v2/' | relative_url }}) will works towards broader platform support and wallet features.
+The big [version 2]({{ '/v2/' | relative_url }}) will work towards broader platform support and wallet features.
 
 ![]({{ '/assets/images/bitcoin-core-app-versions.png' | relative_url }})
