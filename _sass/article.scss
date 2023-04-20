@@ -78,6 +78,11 @@ article {
             margin-top: 10px;
         }
 
+        strong {
+            color: var(--neutral-9);
+            font-weight: 600;
+        }
+
         & + h2,
         & + h3,
         & + h4,
@@ -143,6 +148,19 @@ article {
 
         & + p {
             margin-top: 20px;
+        }
+    }
+
+    pre {
+        background-color: var(--neutral-2);
+        padding: 7px 15px 0px 15px;
+
+        code {
+            display: inline-block;
+            width: 100%;
+            overflow-x: hidden;
+            font-family: $fonts;
+            font-size: 18px;
         }
     }
 }

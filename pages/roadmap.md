@@ -11,10 +11,22 @@ The long-term goal for the application is to become a full-featured bitcoin wall
 
 ## Internal versions
 
-The [first version]({{ '/v1/' | relative_url }}) will be a simple node runner for desktop and mobile Android. 
+[Milestone 1]({{ '/milestone-1/' | relative_url }}) will be a simple node runner for desktop and mobile Android. 
 
-![]({{ '/assets/images/cross-platform-layouts.png' | relative_url }})
+{% include picture.html
+	image = "/assets/images/cross-platform-layouts.png"
+	retina = "/assets/images/cross-platform-layouts@2x.png"
+	alt-text = "Desktop and mobile layouts of an onboarding screen"
+	width = 800
+	height = 551
+%}
 
-The big [version 2]({{ '/v2/' | relative_url }}) will work towards broader platform support and wallet features.
+[Future milestones]({{ '/future-milestones/' | relative_url }}) will work towards broader platform support and wallet features.
 
-![]({{ '/assets/images/bitcoin-core-app-versions.png' | relative_url }})
+{% include picture.html
+	image = "/assets/images/bitcoin-core-app-versions.png"
+	retina = "/assets/images/bitcoin-core-app-versions@2x.png"
+	alt-text = "Milestone 1 and future milestone illustrations"
+	width = 800
+	height = 603
+%}
