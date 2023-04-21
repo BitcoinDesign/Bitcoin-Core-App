@@ -62,7 +62,7 @@ This is the latest code that has been reviewed and merged code, but not a milest
 
 ##### A note for Apple Silicon macOS devices
 
-The application file must be signed before it can be run. Then Ctrl-Right-Click the file and select “Open”. To apply a signature, execute the following code in your Terminal (ensure you are in the same folder as the downloaded file):
+The application file must be signed before it can be run. Then right-click the file and select “Open”. To apply a signature, execute the following code in your Terminal (ensure you are in the same folder as the downloaded file):
 
 	codesign -s - ./unsecure_mac_arm64_gui
 
