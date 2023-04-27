@@ -13,7 +13,7 @@ You can find the application code in the [bitcoin-core/gui-qml](https://github.c
 
 For hosting this website and managing design requests and discussions, we use the [BitcoinDesign/Bitcoin-Core-App](https://github.com/BitcoinDesign/Bitcoin-Core-App) Github repo.
 
-The main design source is this [Figma file](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/Bitcoin-Core-App).
+The main design source is this [Figma file](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design).
 
 ## Design collaboration
 
