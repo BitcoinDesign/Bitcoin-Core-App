@@ -9,6 +9,7 @@ classes: -home
 
 These are work-in-progress design documents for the QML-based Bitcoin Core application that is currently in early development. The goal of this site is to document and make easily accessible various considerations and decisions that went into the design of the user interface and user experience.
 
+- [Project planning board](https://github.com/orgs/BitcoinDesign/projects/7){:target="_blank"}
 - [Bitcoin Core website](https://bitcoincore.org){:target="_blank"}
 - [Design repo](https://github.com/BitcoinDesign/Bitcoin-Core-App){:target="_blank"}
 - [Current design tasks](https://github.com/orgs/BitcoinDesign/projects/5/views/1){:target="_blank"}
