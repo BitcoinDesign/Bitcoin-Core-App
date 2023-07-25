@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1.3 Import
-permalink: /milestone/1-3-import/
+permalink: /milestones/1-3-import/
 nav_order: 22
 header: true
 ---
