@@ -20,7 +20,7 @@ These are work-in-progress design documents for the QML-based Bitcoin Core appli
 
 You are invited to be an early tester of the application and provide your feedback to help us in creating a great experience. Keep in mind that the application is experimental, you are installing and running it at your own risk.
 
-The current application only includes a simple [onboarding process]({{ '/first-use/' | relative_url }}) and the [block clock]({{ '/block-clock/' | relative_url }}). It does **not** include wallet features (those will be added in [future milestones]({{ '/future-milestones/' | relative_url }})). It is available for Linux, Windows, MacOS, and Android operating systems.
+The current application only includes a simple [onboarding process]({{ '/first-use/' | relative_url }}) and the [block clock]({{ '/block-clock/' | relative_url }}). It does **not** include wallet features (those will be added in [future milestones]({{ '/milestones/1-x/' | relative_url }})). It is available for Linux, Windows, MacOS, and Android operating systems.
 
 {% include picture.html
 	image = "/assets/images/feedback-cover.png"

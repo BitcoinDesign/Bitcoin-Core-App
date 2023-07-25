@@ -2,7 +2,7 @@
 layout: default
 title: Console
 permalink: /console/
-nav_order: 19
+nav_order: 30
 ---
 
 # Console
