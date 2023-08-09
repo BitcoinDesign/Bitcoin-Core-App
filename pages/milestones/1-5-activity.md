@@ -98,4 +98,14 @@ Various transaction states on desktop.
 	height = 652
 %}
 
-To be designed is the transaction detail screen.
+An early iteration of a transaction details screen.
+
+{% include picture.html
+	image = "/assets/images/activity/transaction-details.png"
+	retina = "/assets/images/activity/transaction-details@2x.png"
+	big = "/assets/images/activity/transaction-details-big.png"
+	alt-text = "A transaction details screen"
+	width = 800
+	height = 861
+%}
+
