@@ -23,23 +23,25 @@ In this milestone, we add the wallet creation flow. This will only include singl
 	height = 384
 %}
 
-Below are explorations of the user flows for creating new wallets. Click to see them larger.
+The onboarding flow will be updated to include information about wallet features.
 
 {% include picture.html
-	image = "/assets/images/create-wallet-flow-explorations.png"
-	retina = "/assets/images/create-wallet-flow-explorations@2x.png"
-	big = "/assets/images/create-wallet-flow-explorations-big.png"
-	alt-text = "User flow mock-ups for creating a new single-key wallet."
+	image = "/assets/images/create-wallet/onboarding-wallet-features.png"
+	retina = "/assets/images/create-wallet/onboarding-wallet-features@2x.png"
+	big = "/assets/images/create-wallet/onboarding-wallet-features-big.png"
+	alt-text = "An informational screen describing supported wallet features"
 	width = 800
-	height = 184
+	height = 711
 %}
 
+Below is an iteration of the wallet creation flow, including single-key, multi-key, view-only, and custom paths. Many details need to be refined. Click to see it larger.
+
 {% include picture.html
-	image = "/assets/images/create-wallet-flow-explorations-2.png"
-	retina = "/assets/images/create-wallet-flow-explorations-2@2x.png"
-	big = "/assets/images/create-wallet-flow-explorations-2-big.png"
-	alt-text = "User flow mock-ups for creating a new single-key wallet."
+	image = "/assets/images/create-wallet/flow.png"
+	retina = "/assets/images/create-wallet/flow@2x.png"
+	big = "/assets/images/create-wallet/flow-big.png"
+	alt-text = "User flow mock-ups for creating a new wallet."
 	width = 800
-	height = 184
+	height = 415
 %}
 

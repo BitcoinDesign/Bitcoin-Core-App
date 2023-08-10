@@ -23,13 +23,13 @@ After the global navigation is established in milestone 1.1, we now focus on imp
 	height = 384
 %}
 
-Below are explorations of the user flows for importing wallets. Click to see them larger.
+Below is an iteration of the wallet import flow, including migration and error paths. Many details need to be refined. Click to see it larger.
 
 {% include picture.html
-	image = "/assets/images/import-wallet-flow-explorations.png"
-	retina = "/assets/images/import-wallet-flow-explorations@2x.png"
-	big = "/assets/images/import-wallet-flow-explorations-big.png"
-	alt-text = "User flow mock-ups for creating a new single-key wallet."
+	image = "/assets/images/import-wallet/flow.png"
+	retina = "/assets/images/import-wallet/flow@2x.png"
+	big = "/assets/images/import-wallet/flow-big.png"
+	alt-text = "User flow mock-ups for importing an existing wallet."
 	width = 800
-	height = 1010
+	height = 368
 %}
