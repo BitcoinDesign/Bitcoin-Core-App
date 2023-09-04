@@ -10,7 +10,7 @@ header: true
 
 **Status: Early design exploration**
 
-_[Design milestone](https://github.com/BitcoinDesign/Bitcoin-Core-App/milestone/2), [Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13169&mode=design&t=sZSBHpOLLJmoMf57-1)_
+_[Design milestone](https://github.com/BitcoinDesign/Bitcoin-Core-App/milestone/3), [Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13169&mode=design&t=sZSBHpOLLJmoMf57-1)_
 
 After the global navigation is established in milestone 1.1, we now focus on importing and handling wallets.
 
