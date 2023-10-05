@@ -23,13 +23,35 @@ In this milestone we add features related to receiving. The main focus is on the
 	height = 384
 %}
 
-Below are explorations of the user flows for receiving bitcoin. Click to see them larger.
+At the center is the form to create new payment requests, which generates a new address. One address per transaction is a best practice to improve privacy and for easier identification.
 
 {% include picture.html
-	image = "/assets/images/receive-flow-exploration.png"
-	retina = "/assets/images/receive-flow-exploration@2x.png"
-	big = "/assets/images/receive-flow-exploration-big.png"
-	alt-text = "User flow mock-ups for creating a new single-key wallet."
+	image = "/assets/images/receive/form.png"
+	retina = "/assets/images/receive/form@2x.png"
+	big = "/assets/images/receive/form-big.png"
+	alt-text = "A form to create a new payment request"
 	width = 800
-	height = 407
+	height = 551
+%}
+
+Requests are meant to be shared with the payer, so the share options are in focus on the request details screen.
+
+{% include picture.html
+	image = "/assets/images/receive/request.png"
+	retina = "/assets/images/receive/request@2x.png"
+	big = "/assets/images/receive/request-big.png"
+	alt-text = "Screen showing details of a single payment request"
+	width = 800
+	height = 565
+%}
+
+All requests the user has created are available in this list screen, along with the status of whether transactions were received on the respective addresses or not.
+
+{% include picture.html
+	image = "/assets/images/receive/requests.png"
+	retina = "/assets/images/receive/requests@2x.png"
+	big = "/assets/images/receive/requests-big.png"
+	alt-text = "A list of payment requests the user has created"
+	width = 800
+	height = 366
 %}

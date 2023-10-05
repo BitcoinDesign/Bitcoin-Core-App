@@ -63,7 +63,7 @@ It takes some time until the application can show initial progress and a somewha
 	height = 168
 %}
 
-A network indicator appears below the block click when the application does not run on mainnet. We need to decide whether this element should have a tool tip, and/or tapping it navigates to the settings for more information and options.
+A network indicator appears below the block clock when the application does not run on mainnet. We need to decide whether this element should have a tool tip, and/or tapping it navigates to the settings for more information and options.
 
 {% include picture.html
 	image = "/assets/images/block-clock/network-indicator.png"
