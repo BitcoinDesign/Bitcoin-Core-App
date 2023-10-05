@@ -9,7 +9,7 @@ nav_order: 31
 
 The node is an essential part of the application, and the bitcoin network. During the development of Version 1, the idea came up for a separate view mode of the node. This could be used for persistent display on stationary smartphones, tablets, and TVs. The primary focus of the screen would still be the [block clock]({{ '/block-clock/' | relative_url }}). However, it might be bigger so it can be more easily seen from a distance. And there might be more visual detail and potentially additional widgets that could be configured by the user.
 
-The target audience for this feature are more experienced users and developers who like to precisely understand and monitor how their node is performating and what is happening in the network.
+The target audience for this feature are more experienced users and developers who like to precisely understand and monitor how their node is performing, and what is happening in the network.
 
 An example of a fully configured screen.
 
