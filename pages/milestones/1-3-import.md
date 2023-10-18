@@ -12,7 +12,17 @@ header: true
 
 _[Design milestone](https://github.com/BitcoinDesign/Bitcoin-Core-App/milestone/3), [Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13169&mode=design&t=sZSBHpOLLJmoMf57-1)_
 
-After the global navigation is established in milestone 1.1, we now focus on importing and handling wallets.
+After the global navigation is established in milestone 1.2, we now focus on importing and handling wallets. Using the wallet functionality is optional. 
+
+## Entry points
+
+For those users who would like to use Bitcoin Core with a wallet, the app offers two main entry points for adding wallets:
+
+- Directly after the onboarding flow, if the user is doing a fresh install of the application.
+- Trhough the wallet selector dropdown, if he already has a different wallet. 
+- From the settings screen, if the application has been previously used in node only mode. 
+
+
 
 {% include picture.html
 	image = "/assets/images/milestones/1-3-import.png"
