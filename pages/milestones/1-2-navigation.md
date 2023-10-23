@@ -10,7 +10,7 @@ header: true
 
 **Status: Planning**
 
-_[Design milestone](https://github.com/BitcoinDesign/Bitcoin-Core-App/milestone/1), [Code milestone](https://github.com/bitcoin-core/gui-qml/milestone/2), [Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13168&mode=design&t=sZSBHpOLLJmoMf57-1)_
+_[Design milestone](https://github.com/BitcoinDesign/Bitcoin-Core-App/milestone/2), [Code milestone](https://github.com/bitcoin-core/gui-qml/milestone/2), [Figma](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?type=design&node-id=7516%3A13168&mode=design&t=sZSBHpOLLJmoMf57-1)_
 
 The application flow in Milestone 1 is very simple. After a mostly linear onboarding flow, the user lands on the block clock. They can navigate into settings, and back.
 
