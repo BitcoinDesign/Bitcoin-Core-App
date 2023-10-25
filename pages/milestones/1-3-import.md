@@ -26,9 +26,9 @@ After the global navigation is established in milestone 1.1, we now focus on imp
 Below is an iteration of the wallet import flow, including migration and error paths. Many details need to be refined. Click to see it larger.
 
 {% include picture.html
-	image = "/assets/images/import-wallet/flow.png"
+	image = "/assets/images/import-wallet/import_flow.png"
 	retina = "/assets/images/import-wallet/flow@2x.png"
-	big = "/assets/images/import-wallet/flow-big.png"
+	big = "/assets/images/import-wallet/import_flow.png"
 	alt-text = "User flow mock-ups for importing an existing wallet."
 	width = 800
 	height = 368
@@ -41,6 +41,15 @@ For those users who would like to use Bitcoin Core with a wallet, the app offers
 - Directly after the onboarding flow, if the user is doing a fresh install of the application.
 - Through the wallet selector dropdown, if he already has a different wallet. 
 - From the settings screen, if the application has been previously used in node only mode. 
+
+{% include picture.html
+	image = "/assets/images/import-wallet/entry-points.png"
+	retina = "/assets/images/import-wallet/entry-points@2x.png"
+	alt-text = "Mockups showing the entry points to the wallet import flow."
+	width = 800
+	height = 368
+%}
+
 
 ## Import options
 
