@@ -63,9 +63,10 @@ Users have two main options to import a wallet: by loading a wallet file into th
 {% include picture.html
 	image = "/assets/images/import-wallet/import-wallet-options.png"
 	retina = "/assets/images/import-wallet/import-wallet-options@2x.png"
+	big = "/assets/images/import-wallet/import-wallet-options-big.png"
 	alt-text = "Mockup showing the import screen."
-	width = 400
-	height = 184
+	width = 800
+	height = 368
 %}
 
 #### File upload
@@ -89,9 +90,10 @@ After a wallet has been imported, the application displays the most important in
 {% include picture.html
 	image = "/assets/images/import-wallet/import-review-screen.png"
 	retina = "/assets/images/import-wallet/import-review-screen@2x.png"
+	big = "/assets/images/import-wallet/import-review-screen-big.png"
 	alt-text = "Mockup showing the wallet review screen for a single-key and a multi-key wallet."
-	width = 400
-	height = 184
+	width = 800
+	height = 368
 %}
 
 The full details are available in the settings section for full review. The information displayed on this screen will vary based on the specific use case. For instance, if a user imports from an XPUB, the application will not know the wallet name.
@@ -106,9 +108,10 @@ So far we discussed the happy path. However, there are various alternative scena
 {% include picture.html
 	image = "/assets/images/import-wallet/error-handling.png"
 	retina = "/assets/images/import-wallet/error-handling@2x.png"
+	big = "/assets/images/import-wallet/error-handling-big.png"
 	alt-text = "Mockup showing a warning and an error message."
-	width = 400
-	height = 184
+	width = 800
+	height = 368
 %}
 
 In all of these cases, we want to make sure that the application provides clear, concise and actionable feedback about:
