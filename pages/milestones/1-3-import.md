@@ -30,9 +30,9 @@ After the global navigation is established in milestone 1.2, we now focus on imp
 Below is an iteration of the wallet import flow, including migration and error paths. Many details need to be refined. Click to see it larger.
 
 {% include picture.html
-	image = "/assets/images/import-wallet/import_flow.png"
-	retina = "/assets/images/import-wallet/flow@2x.png"
-	big = "/assets/images/import-wallet/import_flow.png"
+	image = "/assets/images/import-wallet/import-flow.png"
+	retina = "/assets/images/import-wallet/import-flow@2x.png"
+	big = "/assets/images/import-wallet/import-flow-big.png"
 	alt-text = "User flow mock-ups for importing an existing wallet."
 	width = 800
 	height = 368
@@ -49,9 +49,10 @@ For those users who would like to use Bitcoin Core with a wallet, the app offers
 {% include picture.html
 	image = "/assets/images/import-wallet/entry-points.png"
 	retina = "/assets/images/import-wallet/entry-points@2x.png"
+	big = "/assets/images/import-wallet/entry-points-big.png"
 	alt-text = "Mockups showing the entry points to the wallet import flow."
 	width = 800
-	height = 417
+	height = 366
 %}
 
 
