@@ -51,7 +51,7 @@ For those users who would like to use Bitcoin Core with a wallet, the app offers
 	retina = "/assets/images/import-wallet/entry-points@2x.png"
 	alt-text = "Mockups showing the entry points to the wallet import flow."
 	width = 800
-	height = 368
+	height = 417
 %}
 
 
