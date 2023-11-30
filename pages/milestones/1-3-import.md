@@ -42,8 +42,8 @@ Below is an iteration of the wallet import flow, including migration and error p
 
 For those users who would like to use Bitcoin Core with a wallet, the app offers three main entry points for adding wallets:
 
-- Directly after the onboarding flow, if the user is doing a fresh install of the application.
-- Through the wallet selector dropdown, if he already has a different wallet. 
+- Directly at the end of the onboarding flow, if the user is doing a fresh install of the application.
+- Through the wallet selector dropdown, if a wallet was already previously added. 
 - From the settings screen, if the application has been previously used in node only mode. 
 
 {% include picture.html
@@ -57,7 +57,7 @@ For those users who would like to use Bitcoin Core with a wallet, the app offers
 
 ## Import options
 
-Users have two main options to import a wallet: by loading a wallet file into the application or by copy-pasting an extended public key, bitcoin address or descriptor.
+Users have two main options to import a wallet: by loading a wallet file into the application or by entering an extended public key, bitcoin address or descriptor.
 
 {% include picture.html
 	image = "/assets/images/import-wallet/import-wallet-options.png"
@@ -69,11 +69,11 @@ Users have two main options to import a wallet: by loading a wallet file into th
 
 #### File upload
 
-Users can import a wallet by choosing a wallet file from their file system. In that case, the native file picker from their operating system. On desktop they can also just drag and drop the file into the application window. 
+Users can import a wallet by choosing a wallet file from their file system (via the native operating system file picker). On desktop, they can also drag and drop the file into the application window. 
 
-#### Paste XPUB, bitcoin address or wallet descriptor
+#### Copy & paste
 
-Users can also copy and paste an XPUB, bitocin address or wallet descriptor to import their wallet.
+Users can also copy and paste an extended public key (XPUB), bitcoin address or wallet descriptor to import their wallet.
 
 
 ## Wallet review screen
@@ -83,7 +83,7 @@ After a wallet has been imported, the application displays the most important in
 - Wallet name (if available)
 - Key scheme
 - Address type
-- Potentially more
+- Potentially more  based on wallet type
 
 {% include picture.html
 	image = "/assets/images/import-wallet/import-review-screen.png"
@@ -93,7 +93,7 @@ After a wallet has been imported, the application displays the most important in
 	height = 184
 %}
 
-The full details are available in the settings section for full review. Note that the information displayed this screen will vary based on the specific use case. For intance, if a user imports from an XPUB, the application will not now the wallet name.
+The full details are available in the settings section for full review. The information displayed on this screen will vary based on the specific use case. For instance, if a user imports from an XPUB, the application will not know the wallet name.
 
 ## Exception and error handling
 
@@ -101,7 +101,6 @@ So far we discussed the happy path. However, there are various alternative scena
 
 - The user tries to import a wallet file that has an outdated format.
 - The provided information (wallet file or pasted string) could not be processed.
-- Etc.
 
 {% include picture.html
 	image = "/assets/images/import-wallet/error-handling.png"
@@ -114,7 +113,7 @@ So far we discussed the happy path. However, there are various alternative scena
 In all of these cases, we want to make sure that the application provides clear, concise and actionable feedback about:
 1. What went wrong (reason).
 2. What this means (impact).
-3. What does the user need to do (remedy).
+3. What the user can do (remedy).
 
 More general guidelines for error handling can be found in the [Bitcoin Design Guide](https://bitcoin.design/guide/daily-spending-wallet/sending/#errors).
 
