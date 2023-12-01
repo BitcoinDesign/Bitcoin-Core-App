@@ -35,7 +35,7 @@ Below is an iteration of the wallet import flow, including migration and error p
 	big = "/assets/images/import-wallet/import-flow-big.png"
 	alt-text = "User flow mock-ups for importing an existing wallet."
 	width = 800
-	height = 368
+	height = 452
 %}
 
 ## Entry points
@@ -66,7 +66,7 @@ Users have two main options to import a wallet: by loading a wallet file into th
 	big = "/assets/images/import-wallet/import-wallet-options-big.png"
 	alt-text = "Mockup showing the import screen."
 	width = 800
-	height = 368
+	height = 770
 %}
 
 #### File upload
@@ -93,7 +93,7 @@ After a wallet has been imported, the application displays the most important in
 	big = "/assets/images/import-wallet/import-review-screen-big.png"
 	alt-text = "Mockup showing the wallet review screen for a single-key and a multi-key wallet."
 	width = 800
-	height = 368
+	height = 395
 %}
 
 The full details are available in the settings section for full review. The information displayed on this screen will vary based on the specific use case. For instance, if a user imports from an XPUB, the application will not know the wallet name.
@@ -111,7 +111,7 @@ So far we discussed the happy path. However, there are various alternative scena
 	big = "/assets/images/import-wallet/error-handling-big.png"
 	alt-text = "Mockup showing a warning and an error message."
 	width = 800
-	height = 368
+	height = 395
 %}
 
 In all of these cases, we want to make sure that the application provides clear, concise and actionable feedback about:
