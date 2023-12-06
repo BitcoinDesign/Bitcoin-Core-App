@@ -67,9 +67,17 @@ This is the latest code that has been reviewed and merged code, but not a milest
 
 ##### A note for Apple Silicon macOS devices
 
-The application file must be signed before it can be run. Then right-click the file and select “Open”. To apply a signature, execute the following code in your Terminal (ensure you are in the same folder as the downloaded file):
+There are two things you might need to do before you can run the application.
 
-	codesign -s - ./unsecure_mac_arm64_gui
+If MacOS sees the downloaded file as a document and not as an application, run this code in the Terminal (in the folder you downloadd the file to):
+
+	chmod +x ./bitcoin-qt
+
+It must also be signed before it can be run, via this command: 
+
+	codesign -s - ./bitcoin-qt
+
+Then right-click the file and select “Open”.
 
 #### Test work-in-progress
 
