@@ -59,7 +59,11 @@ The current application only includes a simple [onboarding process]({{ '/first-u
 - Pull requests are likely set to signet, the switch to mainnet will come soon
 
 #### Test the latest code
-This is the latest code that has been reviewed and merged code, but not a milestone, tag, or release. Navigate to the [Actions page](https://github.com/bitcoin-core/gui-qml/actions) no GitHub. Find the latest successful "Merge" entry. Scroll down to artifacts and download the one for your operating system.
+This is the latest code that has been reviewed and merged code, but not a milestone, tag, or release.
+- Log in to GitHub
+- Navigate to the [Actions page](https://github.com/bitcoin-core/gui-qml/actions?query=is%3Asuccess){:target="_blank"}
+- Find the latest successful "Merge" entry and click it
+- Scroll down to artifacts and download the one for your operating system
 
 ##### A note for Apple Silicon macOS devices
 
@@ -69,7 +73,7 @@ The application file must be signed before it can be run. Then right-click the f
 
 #### Test work-in-progress
 
-Pull requests include work-in-progress code and features that have not been finalized and reviewed yet. You may help test these updates by finding a pull request you are interested in (find the full list [here](https://github.com/bitcoin-core/gui-qml/pulls)), finding the latest successful build on the [Actions page](https://github.com/bitcoin-core/gui-qml/actions), and using the respective download link for your operating system. If you provide comments on these, focus on the specific part of the application that the pull request is about.
+Pull requests include work-in-progress code and features that have not been finalized and reviewed yet. You may help test these updates by finding a pull request you are interested in (find the full list [here](https://github.com/bitcoin-core/gui-qml/pulls){:target="_blank"}), finding the latest successful build on the [Actions page](https://github.com/bitcoin-core/gui-qml/actions){:target="_blank"} (make sure you are logged in), and using the respective download link for your operating system. If you provide comments on these, focus on the specific part of the application that the pull request is about.
 
 #### How to provide feedback
 
@@ -77,9 +81,9 @@ We sincerely appreciate your feedback. We will review it and create tasks and is
 
 There are 4 ways you can submit feedback:
 
-- For general feedback, please complete [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfgBdQ0aCsNyF-ee6e14FA3Dg6LedzknDh-32Jr8xN-340nRA/viewform)
-- You can also share your general feedback and discuss with others in [this GitHub discussion](https://github.com/BitcoinDesign/Bitcoin-Core-App/discussions/45)
-- Report a specific user experience problem as an issue in [the design GitHub repository](https://github.com/BitcoinDesign/Bitcoin-Core-App/issues)
-- Report a specific technical problem as an issue in [the code GitHub repository](https://github.com/bitcoin-core/gui-qml/issues)
+- For general feedback, please complete [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfgBdQ0aCsNyF-ee6e14FA3Dg6LedzknDh-32Jr8xN-340nRA/viewform){:target="_blank"}
+- You can also share your general feedback and discuss with others in [this GitHub discussion](https://github.com/BitcoinDesign/Bitcoin-Core-App/discussions/45){:target="_blank"}
+- Report a specific user experience problem as an issue in [the design GitHub repository](https://github.com/BitcoinDesign/Bitcoin-Core-App/issues){:target="_blank"}
+- Report a specific technical problem as an issue in [the code GitHub repository](https://github.com/bitcoin-core/gui-qml/issues){:target="_blank"}
 
 Thank you for your help.
