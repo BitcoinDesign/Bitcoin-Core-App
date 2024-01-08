@@ -85,6 +85,54 @@ And the block clock in light mode, which simply switches the [color variables]({
 	height = 622
 %}
 
+## Layout logic
+
+By default, the circular block clock is 200x200px in size, centered on the screen. The top bar is 46px tall and absolutely positioned.
+
+When a network indicator is shown, the bounding box of the block clock and network indicator is used for centering within the window.
+
+{% include picture.html
+	image = "/assets/images/block-clock/layout-compact.png"
+	retina = "/assets/images/block-clock/layout-compact@2x.png"
+	big = "/assets/images/block-clock/layout-compact-big.png"
+	alt-text = "Default layout logic diagram"
+	width = 800
+	height = 366
+%}
+
+In [showcase]({{ '/showcase/' | relative_url }}) mode, the block clock tries to maintain 1/3 of the screen width or height, whichever value is smaller. It maintains a minimum size of 200x200px.
+
+{% include picture.html
+	image = "/assets/images/block-clock/layout-showcase.png"
+	retina = "/assets/images/block-clock/layout-showcase@2x.png"
+	big = "/assets/images/block-clock/layout-showcase-big.png"
+	alt-text = "Layout logic diagram for showcase mode"
+	width = 800
+	height = 366
+%}
+
+At smaller sizes (height < 400), the network indicator moves to the top-left corner of the window, making more room for the block clock, which tries to keep a size of 200x200px.
+
+{% include picture.html
+	image = "/assets/images/block-clock/layout-small.png"
+	retina = "/assets/images/block-clock/layout-small@2x.png"
+	big = "/assets/images/block-clock/layout-small-big.png"
+	alt-text = "Layout logic diagram for small window sizes"
+	width = 800
+	height = 427
+%}
+
+At even smaller sizes, the primary factor becomes a minimum side padding of 25px. The block clock shrinks smaller than it's 200x200px default size. The top bar height shrinks to 36px.
+
+{% include picture.html
+	image = "/assets/images/block-clock/layout-tiny.png"
+	retina = "/assets/images/block-clock/layout-tiny@2x.png"
+	big = "/assets/images/block-clock/layout-tiny-big.png"
+	alt-text = "Layout logic diagram for very small window sizes"
+	width = 800
+	height = 693
+%}
+
 ## Prototype
 
 This web prototype was done to validate if the block clock dial renders well with realistic data (or if segments get too small), to explore animations & interactions, and test widgets.
