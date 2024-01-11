@@ -20,7 +20,7 @@ The main design source is this [Figma file](https://www.figma.com/file/ek8w3n3up
 Necessarily, we use several distinct tools to collaborate.
 
 - For real-time chat, we use the [#bitcoin-core-app](https://discord.gg/MQzeVTWgaX) channel in the [Bitcoin Design](https://bitcoin.design/) Discord.
-- Design collaboration happens in Figma in [this file](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/Bitcoin-Core-App).
+- Design collaboration happens in Figma in [this file](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App).
 - Current design tasks are tracked via a Github project [here](https://github.com/orgs/BitcoinDesign/projects/5/views/1).
 - Development happens in the [bitcoin-core/gui-qml](https://github.com/bitcoin-core/gui-qml) Github repo. You can test and review ongoing development there.
 - Every Wednesday, we have a general project call to discuss progress.
