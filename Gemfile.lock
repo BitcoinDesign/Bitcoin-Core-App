@@ -7,21 +7,21 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    addressable (2.8.5)
-      public_suffix (>= 2.0.2, < 6.0)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.11.1)
     colorator (1.1.0)
     commonmarker (0.23.4)
-    concurrent-ruby (1.2.2)
+    concurrent-ruby (1.1.10)
     dnsruby (1.61.9)
       simpleidn (~> 0.1)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
-    ethon (0.16.0)
+    ethon (0.15.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.8.1)
@@ -48,7 +48,7 @@ GEM
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
-    ffi (1.16.3)
+    ffi (1.15.5)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (226)
@@ -221,7 +221,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.8.0)
+    listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
@@ -229,9 +229,9 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.16.3)
+    minitest (5.15.0)
     multipart-post (2.1.1)
-    nokogiri (1.15.4-arm64-darwin)
+    nokogiri (1.13.4-x86_64-darwin)
       racc (~> 1.4)
     octokit (4.22.0)
       faraday (>= 0.9)
@@ -239,11 +239,11 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
-    racc (1.7.3)
-    rb-fsevent (0.11.2)
+    racc (1.6.0)
+    rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rexml (3.2.6)
+    rexml (3.2.5)
     rouge (3.26.0)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
@@ -269,11 +269,11 @@ GEM
       unf_ext
     unf_ext (0.0.8.1)
     unicode-display_width (1.8.0)
-    webrick (1.8.1)
-    zeitwerk (2.6.12)
+    webrick (1.7.0)
+    zeitwerk (2.5.4)
 
 PLATFORMS
-  arm64-darwin-23
+  x86_64-darwin-20
 
 DEPENDENCIES
   github-pages (~> 226)
@@ -285,4 +285,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.4.21
+   2.2.15
