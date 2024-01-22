@@ -58,7 +58,7 @@ As a community, we ideated on various user stories that we hypothesized would be
 
 Links to resources:
 - [Google doc](https://docs.google.com/document/d/1lLDfk2rqxyE1qq74isdAvrd6gZxpxzY55rkdOIfV6Yc/edit#heading=h.qbzoxhysypzv)
-- [User stories - Hypothesis] (https://www.figma.com/file/Oc70eiTlQ1KNWXfaoNdLig/USER-STORIES?type=whiteboard&t=lDP87yWgNeDszMPF-01MoIRqlaKiNR-NqBYU1nrCorhGlopCtCKDiZbcsX8ddM/edit)
+- [User stories - Hypothesis](https://www.figma.com/file/Oc70eiTlQ1KNWXfaoNdLig/USER-STORIES?type=whiteboard&t=lDP87yWgNeDszMPF-01MoIRqlaKiNR-NqBYU1nrCorhGlopCtCKDiZbcsX8ddM/edit)
 The goal of creating these user stories is to then test if these various user flows were possible and convenient in the proposed design.
 
 ### Testing and surveys
