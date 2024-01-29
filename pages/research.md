@@ -10,15 +10,15 @@ nav_order: 3
 
 In the field of software development, it’s important to prioritize understanding the user's perspective. This ensures that the products we craft align seamlessly with the genuine needs and preferences of the end-users. Without this crucial insight, projects run the risk of delivering technically sound solutions that lack resonance with users' actual requirements.
 
-By integrating user experience research into the development process in Bitcoin Core App we have gained insights into user behaviours, needs, and challenges as well as an overview of the competitive environment.
+By integrating user experience research into the development process in Bitcoin Core App we have gained some insights into user behaviours, needs, and challenges as well as an overview of the competitive environment.
 
-Research in the Bitcoin Core App project takes varied forms, initiated by a central question guiding the projects focus. The Bitcoin UX Research toolkit adheres to a question-first approach, helping us tailor methodologies to the specific questions at hand.
+Research in the Bitcoin Core App project takes varied forms, initiated by a central question guiding the projects focus. The [Bitcoin UX Research toolkit](https://bitcoinresearch.xyz/) adheres to a question-first approach, helping us tailor methodologies to the specific questions at hand.
 
-## Bitcoin Core App User Research efforts
+## Completed research efforts
 
-To date there have been various research efforts that have been done on Bitcoin Core App and the research sprints that have been done have had various roles within the project.
+There have been various research efforts around this project and the Bitcoin Core QT GUI, and the research sprints that have been done have had various roles within the project.
 
-Privacy is a cornerstone in Bitcoin user research, affecting two critical areas:
+Privacy is a cornerstone in bitcoin user research, affecting two critical areas:
 
 - Transcripts:
 In the realm of bitcoin, privacy concerns may restrict the public availability of user interview transcripts. Consent obtained at the outset allows us to share resources openly, respecting participants' sensitivities.
@@ -28,7 +28,7 @@ Researchers utilizing AI and tools for data processing must secure consent to mi
 
 ## How research is organized
 
-The research done on this project so far has been organized and initiated within the Bitcoin Design Community. An additional research initiative on nodes has been done by a bitcoin Core developer as well.  Within the Bitcoin Design Community there have been calls organized so that people can contribute as well as understand the research efforts.
+The research done on this project so far has been organized and initiated within the [Bitcoin Design Community](http://bitcoin.design). An additional research initiative on nodes has been done by a Bitcoin Core developer as well.  Within the Bitcoin Design Community there have been calls organized so that people can contribute, as well as understand the research efforts.
 
 The project will continue to conduct more research as it is in development. This process of deciding on the research goals will be done by gaining consensus in the project on what insights need to be understood and identifying if those insights will have an impact on the product.
 
@@ -44,11 +44,11 @@ We aimed to identify the most popular applications based on:
 - Google reviews
 - Node capabilities
 
-The most popular direct and indirect competing UI’s were [identified.](https://docs.google.com/spreadsheets/d/1igEgshDrDrf5g_ZBbmeA44pwxtT2t059xJwW82ItD2A/edit#gid=0)
+The most popular direct and indirect competing UI’s were [identified](https://docs.google.com/spreadsheets/d/1igEgshDrDrf5g_ZBbmeA44pwxtT2t059xJwW82ItD2A/edit#gid=0).
 
 ### User stories
 
-[User stories](https://www.interaction-design.org/literature/topics/user-stories) are specific use cases describing when and how a person might use an application. Think of a user story as a singular task which a user would aim to achieve when opening the application. User stories are usually first created by stakeholders and then after that these user stories are verified by conducting research and speaking with users.
+[User stories](https://www.interaction-design.org/literature/topics/user-stories) are specific use cases describing when and how a person might use an application. Think of a user story as a singular task which a user would aim to achieve when opening the application. User stories are usually first created by stakeholders and then verified by conducting research and speaking with users.
 
 As a community, we ideated on various user stories that we hypothesized would be daily use cases when opening or using Bitcoin Core app. These were separated into 4 larger groups:
 - Learners
@@ -57,7 +57,7 @@ As a community, we ideated on various user stories that we hypothesized would be
 - Developers
 
 Links to resources:
-- [Google doc](https://docs.google.com/document/d/1lLDfk2rqxyE1qq74isdAvrd6gZxpxzY55rkdOIfV6Yc/edit#heading=h.qbzoxhysypzv)
+- [Google doc](https://docs.google.com/document/d/19eYP5e8qp5SCdNIzPHC49C5LFlnAvgiEjmUi3JTRmtc/edit?usp=sharing
 - [User stories - Hypothesis](https://www.figma.com/file/Oc70eiTlQ1KNWXfaoNdLig/USER-STORIES?type=whiteboard&t=lDP87yWgNeDszMPF-01MoIRqlaKiNR-NqBYU1nrCorhGlopCtCKDiZbcsX8ddM/edit)
 The goal of creating these user stories is to then test if these various user flows were possible and convenient in the proposed design.
 
@@ -66,7 +66,7 @@ The goal of creating these user stories is to then test if these various user fl
 Specific research, particularly on the node and wallet sides, involved surveys and guerilla testing. The former provided a deeper understanding of node operators, while the latter provided feedback on the onboarding flow of the new Bitcoin Core App.
 
 #### Node
-At the beginning of 2021 a survey was run by Ava Chow, a bitcoin core developer. This survey was sponsored by [MIT's Digital Currency Initiative] (https://dci.mit.edu/) and in partnership with [Maiden Labs.](http://maiden.global/ Its goal was to better understand the people who run nodes and use the Bitcoin Core Wallet, as well as people familiar with Bitcoin but who maybe don’t run a node (yet).)
+At the beginning of 2021 a survey was run by Ava Chow, a Bitcoin Core developer. This survey was sponsored by [MIT's Digital Currency Initiative] (https://dci.mit.edu/) and in partnership with [Maiden Labs](http://maiden.global/).  Its goal was to better understand the people who run nodes and use the Bitcoin Core wallet, as well as people familiar with Bitcoin but who maybe don’t run a node (yet).
 
 The [survey](https://survey.alchemer.com/s3/6081474/8acd79087feb) took 15-20 minutes to complete.
 
@@ -87,7 +87,7 @@ Links to resources:
 - [Raw transcript](https://docs.google.com/document/d/1MoIRqlaKiNR-NqBYU1nrCorhGlopCtCKDiZbcsX8ddM/edit)
 
 ### Current and potential user interviews
-This initiative was to understand both current as well as potential users of the Bitcoin Core App. One on one interviews were done to understand the pushes, pulls as well as use cases of people using Bitcoin core.
+This initiative was to understand both current as well as potential users of the Bitcoin Core App. One on one interviews were done to understand the pushes, pulls as well as use cases of people using Bitcoin Core.
 
 Links to resources:
 - [Research plan](https://docs.google.com/document/d/1UhDR1K9q4y5zEuACdUZe3cLvYSIRfL71BUetqNgnLPM/edit?usp=sharing)
@@ -98,6 +98,6 @@ Links to resources:
 ## How to contribute
 
 Contributing to research efforts on Bitcoin Core App is open to everyone. Contributors are encouraged to first get a feel of the project by:
-- Joining a call: Joining in on the design calls allows contributors to get a feel of the project as well as which areas of the UI are being worked on at the moment. Calls are added to the [Bitcoin Design Community calender.](https://bitcoin.design/calendar/)
+- Joining a call: This allows contributors to get a feel of the project as well as which areas of the UI are being worked on at the moment. Calls are added to the [Bitcoin Design Community calender](https://bitcoin.design/calendar/).
 - Reading: Reading through the past research efforts and documents will provide an idea of how research has been conducted as well as provide templates for future research initiatives.
 - Community activity: Suggesting or kicking off research initiatives within the community by sharing thoughts and ideas.
