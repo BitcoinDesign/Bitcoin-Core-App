@@ -35,7 +35,14 @@ The project will continue to conduct more research as it is in development. This
 There has also been a [public repository](https://github.com/users/mouxdesign/projects/5/views/1) created for this project where snippets from the various research efforts have been captured. This public repository was created to ensure that as much as possible of the research insights are publicly available.
 
 ## Past research efforts
-** add in image
+{% include picture.html
+	image = "/assets/images/research-illustration.png"
+	retina = "/assets/images/research-illustration@2x.png"
+	big = "/assets/images/research-illustration-big.png"
+	alt-text = "A flow chart showing the different research efforts that have been done on the project. The chart shows three branches; discover, qualitative research, quantitative research"
+	width = 800
+	height = 500
+%}
 
 ### Comparative Interfaces
 Early in the project, we assessed interfaces comparable to the Bitcoin Core GUI.
