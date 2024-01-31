@@ -36,9 +36,9 @@ There has also been a [public repository](https://github.com/users/mouxdesign/pr
 
 ## Past research efforts
 {% include picture.html
-	image = "/assets/images/research-illustration.png"
-	retina = "/assets/images/research-illustration@2x.png"
-	big = "/assets/images/research-illustration-big.png"
+	image = "/assets/images/research/research-illustration.png"
+	retina = "/assets/images/research/research-illustration@2x.png"
+	big = "/assets/images/research/research-illustration-big.png"
 	alt-text = "A flow chart showing the different research efforts that have been done on the project. The chart shows three branches; discover, qualitative research, quantitative research"
 	width = 800
 	height = 500
