@@ -64,7 +64,7 @@ As a community, we ideated on various user stories that we hypothesized would be
 - Developers
 
 Links to resources:
-- [User stories - Google doc](https://docs.google.com/document/d/19eYP5e8qp5SCdNIzPHC49C5LFlnAvgiEjmUi3JTRmtc/edit?usp=sharing)
+- [User stories - List](https://docs.google.com/document/d/19eYP5e8qp5SCdNIzPHC49C5LFlnAvgiEjmUi3JTRmtc/edit?usp=sharing)
 - [User stories - Group excersise](https://www.figma.com/file/Oc70eiTlQ1KNWXfaoNdLig/USER-STORIES?type=whiteboard&t=lDP87yWgNeDszMPF-01MoIRqlaKiNR-NqBYU1nrCorhGlopCtCKDiZbcsX8ddM/edit)
 The goal of creating these user stories is to then test if these various user flows were possible and convenient in the proposed design.
 
