@@ -44,8 +44,4 @@ There is a lot of manual work and communication involved in this. Agreeing on ch
 
 ## Testing & reviewing development work
 
-You are welcome to test and review ongoing development work. Every [pull request](https://github.com/bitcoin-core/gui-qml/pulls) (a code update focused on a specific change), includes links in the top comment to download the application for testing. You can also compile the application from source if you'd like.
-
-If you test on a Mac, you need to run ´codesign -s - ./filename´ on the downloaded executable for it to work.
-
-Please provide feedback in the pull request directly.
+You are welcome to test and review ongoing development work. See the information on the [home page](/) for more details.

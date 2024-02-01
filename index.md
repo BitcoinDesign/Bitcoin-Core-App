@@ -15,6 +15,7 @@ These are work-in-progress design documents for the QML-based Bitcoin Core appli
 - [Current design tasks](https://github.com/orgs/BitcoinDesign/projects/5/views/1){:target="_blank"}
 - [Figma community file](https://www.figma.com/community/file/1185218794459295422) ([working file](https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?node-id=616%3A0){:target="_blank"}, [previous](https://www.figma.com/file/GaCoOSNHB2yMB9ThiDtred/Bitcoin-Core-App-(Old)?node-id=616%3A0){:target="_blank"})
 - [Code repository](https://github.com/bitcoin-core/gui-qml){:target="_blank"}
+- [Web prototype](https://lively-kashata-cfde7e.netlify.app){:target="_blank"}
 
 ## Provide early feedback
 
