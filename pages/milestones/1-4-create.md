@@ -2,7 +2,7 @@
 layout: default
 title: 1.4 Create
 permalink: /milestones/1-4-create/
-nav_order: 23
+nav_order: 140
 header: true
 ---
 

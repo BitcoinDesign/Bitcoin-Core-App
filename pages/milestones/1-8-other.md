@@ -2,7 +2,7 @@
 layout: default
 title: 1.8 Other
 permalink: /milestones/1-8-other/
-nav_order: 27
+nav_order: 180
 header: true
 ---
 

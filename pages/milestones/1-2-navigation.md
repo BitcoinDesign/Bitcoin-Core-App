@@ -2,7 +2,7 @@
 layout: default
 title: 1.2 Navigation
 permalink: /milestones/1-2-navigation/
-nav_order: 21
+nav_order: 120
 header: true
 ---
 

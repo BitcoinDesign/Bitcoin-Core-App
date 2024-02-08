@@ -2,7 +2,7 @@
 layout: default
 title: 1.3 Import
 permalink: /milestones/1-3-import/
-nav_order: 22
+nav_order: 130
 header: true
 ---
 

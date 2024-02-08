@@ -2,7 +2,7 @@
 layout: default
 title: 1.5 Activity
 permalink: /milestones/1-5-activity/
-nav_order: 24
+nav_order: 150
 header: true
 ---
 

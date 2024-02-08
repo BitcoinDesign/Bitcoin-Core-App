@@ -67,6 +67,7 @@ function showMenu() {
 
   setTimeout(function() {
     ref.siteNav.classList.add('-expanded');
+    document.body.classList.add('-menu-visible');
   }, 5);
 };
 
@@ -80,6 +81,7 @@ function hideMenu() {
 
   setTimeout(function() {
     ref.siteNavNav.setAttribute("hidden", "hidden");
+    document.body.classList.remove('-menu-visible');
   }, 400);
 };
 

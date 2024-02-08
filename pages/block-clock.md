@@ -2,7 +2,7 @@
 layout: default
 title: Block clock
 permalink: /block-clock/
-nav_order: 14
+nav_order: 52
 ---
 
 # Block clock

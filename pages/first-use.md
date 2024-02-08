@@ -2,14 +2,14 @@
 layout: default
 title: First use
 permalink: /first-use/
-nav_order: 13
+nav_order: 51
 ---
 
 # First use
 
 The first time a user tries an application is an essential experience that can make them appreciate the features and happily return for repeat use, or it can turn them away forever. The reality is usually somewhere in between and depends on the user and their context. But, with a well-considered first-use experience, we can help them get a good start.
 
-The cover screen also offers access to the about screen and developer options.
+The cover screen also offers access to the [about]({{ '/settings/about' | relative_url }}) screen and [developer options]({{ '/settings/developer' | relative_url }}).
 
 {% include picture.html
 	image = "/assets/images/first-use/cover.png"
@@ -17,7 +17,7 @@ The cover screen also offers access to the about screen and developer options.
 	big = "/assets/images/first-use/cover-big.png"
 	alt-text = "Cover, about and developer option screens"
 	width = 800
-	height = 417
+	height = 551
 %}
 
 Ideally, users already clearly understand the application benefits and unique features. The website from which it is downloaded should already have communicated these. However, it can still be beneficial to repeat them. This clears up false expectations and prepares users for what they are about to do next. 
@@ -42,7 +42,7 @@ Since the application requires a lot of storage, we may want to offer users some
 	height = 417
 %}
 
-This where the user chooses between pruning and storing all downloaded blocks. They also have the option to customize the maximum amount of storage to use.
+This where the user chooses between pruning and storing all downloaded blocks. They also have the option to customize the maximum amount of storage to use. Also see [storage settings]({{ '/settings/storage/' | relative_url }}).
 
 {% include picture.html
 	image = "/assets/images/first-use/storage-amount.png"
@@ -55,7 +55,7 @@ This where the user chooses between pruning and storing all downloaded blocks. T
 
 The first use ends with the initial block download. It's a time-consuming activity that users are typically not familiar with from other applications. The following screen ensures that they understand what will happen next, when they will navigate the application independently.
 
-Bandwidth may also be limited or expensive for the user, particularly on mobile. The initial block download is particularly problematic, so we may want to ensure that users are guided towards the best option.
+Bandwidth may also be limited or expensive for the user, particularly on mobile. The initial block download is particularly problematic, so we may want to ensure that users are guided towards the best option. Also see [connection settings]({{ '/settings/connection/' | relative_url }}).
 
 {% include picture.html
 	image = "/assets/images/first-use/ibd-and-connection.png"
@@ -64,6 +64,17 @@ Bandwidth may also be limited or expensive for the user, particularly on mobile.
 	alt-text = "Screen that prepares the user for the initial block download, as well as connection settings"
 	width = 800
 	height = 417
+%}
+
+On Android, a persistent system notification is required to prevent the operating system from pausing the node. This screen explains that to users and prepares them for making an informed decision about accepting or rejecting notification permissions. "Enable" then presents the user with the OS permission request. This can be changed later in OS settings (not in application settings).
+
+{% include picture.html
+	image = "/assets/images/first-use/notifications.png"
+	retina = "/assets/images/first-use/notifications@2x.png"
+	big = "/assets/images/first-use/notifications-big.png"
+	alt-text = "Screen explaining the rationale and use of notifications"
+	width = 800
+	height = 551
 %}
 
 After these onboarding steps, users are navigated to the [block clock]({{ '/block-clock/' | relative_url }}), which then connects to the network and starts the initial block download.
