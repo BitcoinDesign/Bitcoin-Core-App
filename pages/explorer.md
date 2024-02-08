@@ -7,7 +7,7 @@ nav_order: 29
 
 # Explorer
 
-Including a block explorer in the application allows user to avoid potential problems that come with the user of third-party explorers. It also allows developers to inspect transactions more easily, although many of the technical details should not be placed in the "happy path" of casual use. Designs are here are a first draft of this feature.
+Including a block explorer in the application allows user to avoid potential problems that come with the user of third-party explorers. It also allows developers to inspect transactions more easily, although many of the technical details should not be placed in the "happy path" of casual use. Designs here are a first draft of this feature.
 
 {% include picture.html
 	image = "/assets/images/explorer/blocks.png"
