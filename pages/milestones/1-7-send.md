@@ -2,7 +2,7 @@
 layout: default
 title: 1.7 Send
 permalink: /milestones/1-7-send/
-nav_order: 26
+nav_order: 170
 header: true
 ---
 

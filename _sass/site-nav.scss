@@ -37,6 +37,10 @@
                 color: var(--neutral-9);
                 font-weight: 600;
             }
+
+            &.-indent {
+                padding-left: 30px;
+            }
             
             &:hover {
                 color: var(--primary);
@@ -126,11 +130,13 @@
             background-color: var(--neutral-0);
             transition: height 450ms $ease;
             padding: 15px 0;
+            box-sizing: border-box;
         }
 
         &.-expanded {
             nav {
-                height: calc(100vh - 83px);
+                height: calc(100dvh - 83px);
+                overflow-y: scroll;
             }
         }
     }
@@ -147,5 +153,12 @@
         nav {
             margin-top: 20px;
         }
+    }
+}
+
+body.-menu-visible {
+    @include media-query(small) {
+        height: 100dvh;
+        overflow: hidden;
     }
 }

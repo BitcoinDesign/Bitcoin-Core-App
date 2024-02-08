@@ -2,7 +2,7 @@
 layout: default
 title: 1.6 Receive
 permalink: /milestones/1-6-receive/
-nav_order: 25
+nav_order: 160
 header: true
 ---
 

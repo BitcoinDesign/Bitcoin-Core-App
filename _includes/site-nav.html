@@ -29,7 +29,7 @@
     {%- for node in pages_list -%}
 
       {%- if node.parent == nil and node.title -%}
-        <a href="{{ node.url | relative_url }}" class="{% if page.url == node.url %}-active{% endif %}{% if node.header %} -header{% endif %}">{{ node.title }}</a>
+        <a href="{{ node.url | relative_url }}" class="{% if page.url == node.url %}-active{% endif %}{% if node.header %} -header{% endif %}{% if node.indent %} -indent{% endif %}">{{ node.title }}</a>
       {%- endif -%}
 
     {%- endfor -%}
