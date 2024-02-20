@@ -27,9 +27,9 @@ The application should match localization to what the operating system provides.
 	image = "/assets/images/settings/language.png"
 	retina = "/assets/images/settings/language@2x.png"
 	big = "/assets/images/settings/language-big.png"
-	alt-text = "Two screens showing the language picker on the cover screen and in settings"
+	alt-text = "Three screens showing the language picker on the cover screen, on mobile, and in settings"
 	width = 800
-	height = 366
+	height = 336
 %}
 
 Languages are shown in the language itself, and in the currently chosen language. Countries/regions are added to language names to differentiate dialects.
