@@ -37,9 +37,9 @@ The same states are required on mobile, along with other layout differences to a
 	image = "/assets/images/nav/mobile-nav-node-wallet.png"
 	retina = "/assets/images/nav/mobile-nav-node-wallet@2x.png"
 	big = "/assets/images/nav/mobile-nav-node-wallet-big.png"
-	alt-text = "Five mobile screens with different wallet states."
+	alt-text = "Six mobile screens with different wallet states."
 	width = 800
-	height = 353
+	height = 289
 %}
 
 Below are the various interactive states of elements in the navigation bar on desktop.
@@ -62,6 +62,17 @@ The wallet selector differs across device types. While the content is identical,
 	alt-text = "The wallet selector modal on desktop and mobile."
 	width = 800
 	height = 481
+%}
+
+We are still investigating how much information the application has about closed wallets (only one wallet is open, or active, at a time). Here are some variations with different amounts of detail.
+
+{% include picture.html
+	image = "/assets/images/nav/wallet-selector-variations.png"
+	retina = "/assets/images/nav/wallet-selector-variations@2x.png"
+	big = "/assets/images/nav/wallet-selector-big.png"
+	alt-text = "Three variations of the wallet selector modals with varying detail."
+	width = 800
+	height = 442
 %}
 
 Below are interactive states of many of the individual elements. For all the visual details, see the Figma file linked above.
