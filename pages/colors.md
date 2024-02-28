@@ -304,7 +304,7 @@ In the [peer details]({{ '/settings/peers/' | relative_url }}), a gradient from 
 	<li>
 		<div class="-red"></div>
 		<div class="copy">
-			<p>red</p>
+			<p>Red</p>
 			<p class="-light">#EB5757</p>
 			<p class="-dark">#EC6363</p>
 		</div>
