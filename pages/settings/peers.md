@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Peers
-permalink: /peers/
+permalink: /settings/peers/
 nav_order: 57
 indent: true
 ---
@@ -23,7 +23,7 @@ Tapping a peer reveals all the details in a new screen. The information is split
 
 Below is a first draft. The details should be refined over time and with practical input from users who closely work with this data. Users should be able to easily understand whether this connection is helpful to them, the peer, and the network. Some ideas:
 
-- Use dots with a mix of red & green to indicate the quality/performance of a value (red is bad, green is good)
+- Use dots with a mix of red & green to indicate the quality/performance of a value (red is bad, green is good, see the [colors]({{ '/colors/' | relative_url }}) page)
 - Tool tips for Strings like the ones used in Services to explain what each one does
 - For block data, indicate how it compares to the users node
 

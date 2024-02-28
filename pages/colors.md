@@ -27,7 +27,7 @@ Orange is the primary color used to indicate interactive elements. Orange light 
 		<div class="copy">
 			<p>Orange</p>
 			<p class="-light">#F7931A</p>
-			<p class="-dark">#F7931A</p>
+			<p class="-dark">#F89B2A</p>
 		</div>
 	</li>
 	<li>
@@ -35,14 +35,14 @@ Orange is the primary color used to indicate interactive elements. Orange light 
 		<div class="copy">
 			<p>Orange light 1</p>
 			<p class="-light">#FFAD4A</p>
-			<p class="-dark">#FFBF72</p>
+			<p class="-dark">#FFAD4A</p>
 		</div>
 	</li>
 	<li>
 		<div class="-orange-light-2"></div>
 		<div class="copy">
 			<p>Orange light 2</p>
-			<p class="-light">#FFAD4A</p>
+			<p class="-light">#FFBF72</p>
 			<p class="-dark">#FFBF72</p>
 		</div>
 	</li>
@@ -50,32 +50,32 @@ Orange is the primary color used to indicate interactive elements. Orange light 
 		<div class="-red"></div>
 		<div class="copy">
 			<p>Red</p>
-			<p class="-light">#F7931A</p>
-			<p class="-dark">#F7931A</p>
+			<p class="-light">#EB5757</p>
+			<p class="-dark">#EC6363</p>
 		</div>
 	</li>
 	<li>
 		<div class="-green"></div>
 		<div class="copy">
 			<p>Green</p>
-			<p class="-light">#F7931A</p>
-			<p class="-dark">#F7931A</p>
+			<p class="-light">#27AE60</p>
+			<p class="-dark">#36B46B</p>
 		</div>
 	</li>
 	<li>
 		<div class="-blue"></div>
 		<div class="copy">
 			<p>Blue</p>
-			<p class="-light">#F7931A</p>
-			<p class="-dark">#F7931A</p>
+			<p class="-light">#2D9CDB</p>
+			<p class="-dark">#3CA3DE</p>
 		</div>
 	</li>
 	<li>
 		<div class="-purple"></div>
 		<div class="copy">
 			<p>Purple</p>
-			<p class="-light">#F7931A</p>
-			<p class="-dark">#F7931A</p>
+			<p class="-light">#BB6BD9</p>
+			<p class="-dark">#C075DC</p>
 		</div>
 	</li>
 	<li class="-placeholder" />
@@ -220,6 +220,93 @@ These are used in the [block clock]({{ '/block-clock/' | relative_url }}) and ma
 			<p>Confirmations 6</p>
 			<p class="-light">#F1D54A</p>
 			<p class="-dark">#F1D54A</p>
+		</div>
+	</li>
+</ol>
+
+## Green to red gradient
+
+In the [peer details]({{ '/settings/peers/' | relative_url }}), a gradient from green to red is used to convey how relatively "good" or "bad" a value is in context. The colors are linearly distributed and can also be automatically calculated via the green and red values above.
+
+<ol class="swatches -confirmations">
+	<li>
+		<div class="-green"></div>
+		<div class="copy">
+			<p>Green</p>
+			<p class="-light">#27AE60</p>
+			<p class="-dark">#36B46B</p>
+		</div>
+	</li>
+	<li>
+		<div class="-green-red-1"></div>
+		<div class="copy">
+			<p>Green-red 1</p>
+			<p class="-light">#3DA45F</p>
+			<p class="-dark">#4AAB6A</p>
+		</div>
+	</li>
+	<li>
+		<div class="-green-red-2"></div>
+		<div class="copy">
+			<p>Green-red 2</p>
+			<p class="-light">#529B5E</p>
+			<p class="-dark">#5EA269</p>
+		</div>
+	</li>
+	<li>
+		<div class="-green-red-3"></div>
+		<div class="copy">
+			<p>Green-red 3</p>
+			<p class="-light">#68915D</p>
+			<p class="-dark">#729968</p>
+		</div>
+	</li>
+	<li>
+		<div class="-green-red-4"></div>
+		<div class="copy">
+			<p>Green-red 4</p>
+			<p class="-light">#7D885C</p>
+			<p class="-dark">#869067</p>
+		</div>
+	</li>
+	<li>
+		<div class="-green-red-5"></div>
+		<div class="copy">
+			<p>Green-red 5</p>
+			<p class="-light">#937E5B</p>
+			<p class="-dark">#9A8767</p>
+		</div>
+	</li>
+	<li>
+		<div class="-green-red-6"></div>
+		<div class="copy">
+			<p>Green-red 6</p>
+			<p class="-light">#A8755A</p>
+			<p class="-dark">#AE7F66</p>
+		</div>
+	</li>
+	<li>
+		<div class="-green-red-7"></div>
+		<div class="copy">
+			<p>Green-red 7</p>
+			<p class="-light">#BE6B59</p>
+			<p class="-dark">#C27665</p>
+		</div>
+	</li>
+	<li>
+		<div class="-green-red-8"></div>
+		<div class="copy">
+			<p>Green-red 8</p>
+			<p class="-light">#D36158</p>
+			<p class="-dark">#D66D64</p>
+		</div>
+	</li>
+	<li>
+		<div class="-red"></div>
+		<div class="copy">
+			<p>red</p>
+			<p class="-light">#EB5757</p>
+			<p class="-dark">#EC6363</p>
 		</div>
 	</li>
 </ol>
