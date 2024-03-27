@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Connection
-permalink: /settings/connection/
+permalink: /research/userinterviews/
 nav_order: 56
 indent: true
 ---
@@ -21,7 +21,7 @@ Used for customizing details about how the application connects to other nodes o
 
 ## Proxy
 
-Allows for routing different traffic types through specific proxies the user may have personally set up. 
+Allows for routing different traffic types through specific proxies the user may have personally set up.
 
 {% include picture.html
 	image = "/assets/images/settings/proxy.png"
@@ -31,5 +31,3 @@ Allows for routing different traffic types through specific proxies the user may
 	width = 800
 	height = 946
 %}
-
-
