@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Overview
 permalink: /research/overview/
 nav_order: 59
 indent: true

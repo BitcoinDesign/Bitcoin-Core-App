@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Connection
-permalink: /research/userinterviews/
+title: User Interviews
+permalink: /research/user-interviews/
 nav_order: 56
 indent: true
 ---
