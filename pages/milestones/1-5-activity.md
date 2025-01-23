@@ -20,7 +20,7 @@ In previous milestones, we added wallet creation and import. Now we add display 
 	big = "/assets/images/milestones/1-5-activity-big.png"
 	alt-text = ""
 	width = 800
-	height = 384
+	height = 409
 %}
 
 Below are examples of various activity screen states. Note that activity includes both transactions and payment requests.

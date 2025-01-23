@@ -20,7 +20,7 @@ In this milestone we add features related to receiving.
 	big = "/assets/images/milestones/1-6-receive-big.png"
 	alt-text = "A visual map of which screens will be added in the 1.5 milestone"
 	width = 800
-	height = 384
+	height = 409
 %}
 
 #### Payment requests

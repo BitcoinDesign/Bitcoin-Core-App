@@ -24,5 +24,5 @@ There are several features and screens that are not essential to wallet function
 	big = "/assets/images/milestones/1-8-other-big.png"
 	alt-text = "A visual map of which screens will be added in the 1.8 milestone"
 	width = 800
-	height = 384
+	height = 409
 %}

@@ -20,7 +20,7 @@ In this milestone, we add the wallet creation flow. This will only include singl
 	big = "/assets/images/milestones/1-4-create-big.png"
 	alt-text = "A visual map of which screens will be added in the 1.4 milestone"
 	width = 800
-	height = 384
+	height = 409
 %}
 
 Below is an iteration of the wallet creation flow, including single-key, multi-key, view-only, and custom paths. Many details need to be refined. Click to see it larger.

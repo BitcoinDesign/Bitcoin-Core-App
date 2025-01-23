@@ -24,7 +24,7 @@ After the global navigation is established in milestone 1.2, we now focus on imp
 	big = "/assets/images/milestones/1-3-import-big.png"
 	alt-text = "A visual map of which screens will be added in the 1.2 milestone"
 	width = 800
-	height = 384
+	height = 409
 %}
 
 Below is an iteration of the wallet import flow, including migration and error paths. Many details need to be refined. Click to see it larger.

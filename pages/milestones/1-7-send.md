@@ -24,7 +24,7 @@ Below is a visual map of how we can reach this parity point based on Milestone 1
 	big = "/assets/images/milestones/1-7-send-big.png"
 	alt-text = "A visual map of which screens will be added in the 1.7 milestone"
 	width = 800
-	height = 384
+	height = 409
 %}
 
 The complexity of the send flow can range dramatically. Some of the features to support:
