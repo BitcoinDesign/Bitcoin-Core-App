@@ -14,6 +14,10 @@ _[Design milestone](https://github.com/BitcoinDesign/Bitcoin-Core-App/milestone/
 
 There are several features and screens that are not essential to wallet functionality, like the console and messages signing/verification. These can be tackled in this milestone after the more foundational features are completed.
 
+- [Console]({{ '/console/' | relative_url }})
+- [Contacts]({{ '/contacts/' | relative_url }})
+- [Addresses]({{ '/addresses/' | relative_url }})
+
 {% include picture.html
 	image = "/assets/images/milestones/1-8-other.png"
 	retina = "/assets/images/milestones/1-8-other@2x.png"

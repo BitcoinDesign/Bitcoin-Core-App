@@ -2,7 +2,7 @@
 layout: default
 title: Coin selection
 permalink: /send/coin-selection/
-nav_order: 174
+nav_order: 175
 indent: true
 ---
 

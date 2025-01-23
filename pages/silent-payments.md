@@ -2,7 +2,7 @@
 layout: default
 title: Silent payments
 permalink: /silent-payments/
-nav_order: 204
+nav_order: 205
 indent: true
 ---
 
