@@ -19,8 +19,8 @@ A few things to consider:
 - Sufficient visual contrast (3:1 contrast ratio for UI controls and large text; 4.5:1 contrast ratio for large text)
 - Support dynamic text size, zoom, reflow, and responsive design for smaller viewports
 - Simple, clear language designed to convey the purpose of an action, event, or control
-- Keyboard navigation for interactive control
+- Keyboard navigation for interactive controls
 - Screen reader and other Assistive Technology (AT) support
-- Localization
+- Internationalization and Localization
 
 Operating systems allow users to personalize display settings. Options include increased contrast, bold text, larger or smaller text sizes, zoom, and much more. These should be supported as much as possible.
