@@ -11,15 +11,16 @@ The application should be as usable by as many people as possible. For more, rea
 
 A few things to consider:
 
-- Clear accessibility labels of UI elements (most applications get this wrong)
-- Visual highlights for focused state of UI elements
-- Multi-sensory feedback on interactions
-- Alternate interaction options
-- Sufficient visual contrast
-- Support dynamic text size
-- Simple, clear language
-- Keyboard navigation
-- Voice over support
-- Localization
+- Accurate visible text labels for form elements
+- Clear, programmatically-defined accessible names for UI controls (most applications get this wrong)
+- Visual highlights for focused and selected states of UI elements with sufficient contrast
+- Multi-sensory feedback on interactions (e.g. avoiding the use of color-alone to convey meaning)
+- Alternate interaction options (e.g. multiple ways for navigation)
+- Sufficient visual contrast (3:1 contrast ratio for UI controls and large text; 4.5:1 contrast ratio for large text)
+- Support dynamic text size, zoom, reflow, and responsive design for smaller viewports
+- Simple, clear language designed to convey the purpose of an action, event, or control
+- Keyboard navigation for interactive controls
+- Screen reader and other Assistive Technology (AT) support
+- Internationalization and Localization
 
 Operating systems allow users to personalize display settings. Options include increased contrast, bold text, larger or smaller text sizes, and much more. These should be supported as much as possible.
