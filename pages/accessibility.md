@@ -16,7 +16,7 @@ A few things to consider:
 - Visual highlights for focused and selected states of UI elements with sufficient contrast
 - Multi-sensory feedback on interactions (e.g. avoiding the use of color-alone to convey meaning)
 - Alternate interaction options (e.g. multiple ways for navigation)
-- Sufficient visual contrast (3:1 contrast ratio for UI controls and large text; 4.5:1 contrast ratio for large text)
+- Sufficient visual contrast
 - Support dynamic text size, zoom, reflow, and responsive design for smaller viewports
 - Simple, clear language designed to convey the purpose of an action, event, or control
 - Keyboard navigation for interactive controls
