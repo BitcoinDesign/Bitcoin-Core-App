@@ -11,8 +11,8 @@ The application should be as usable by as many people as possible. For more, rea
 
 A few things to consider:
 
-- Accurate text labels for form elements
-- Clear programmatically defined accessible names for UI controls (most applications get this wrong)
+- Accurate visible text labels for form elements
+- Clear programmatically-defined accessible names for UI controls (most applications get this wrong)
 - Visual highlights for focused and selected states of UI elements with sufficient contrast
 - Multi-sensory feedback on interactions (e.g. avoiding the use of color-alone to convey meaning)
 - Alternate interaction options including multiple ways for navigation
