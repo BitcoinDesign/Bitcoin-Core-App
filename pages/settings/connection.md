@@ -29,7 +29,12 @@ Allows for routing different traffic types through specific proxies the user may
 	big = "/assets/images/settings/proxy-big.png"
 	alt-text = "Screen with various settings for routing traffic through proxies"
 	width = 800
-	height = 946
+	height = 366
 %}
 
+Changes require an application restart. Because this interaction model is unique to this page, there is a notice at the top.
+
+- The notice lights up when there are unsaved changes.
+- Pressing "Back" with unsaved changes asks the user whether to abandon those.
+- Pressing "Done" saves changes and asks the user whether they want to restart the application now.
 
