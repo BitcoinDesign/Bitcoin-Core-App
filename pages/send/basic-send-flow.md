@@ -121,29 +121,24 @@ Before the transaction is broadcast, the user has another chance to review it.
 	height = 551
 %}
 
-#### Transaction details
-
-After the transaction has been sent, the user sees the transaction details screen. They have the choico to create another transaction or to go to the full transaction details page in the activity section.
-
 {% include picture.html
-	image = "/assets/images/send/send-transaction-details.png"
-	retina = "/assets/images/send/send-transaction-details@2x.png"
-	big = "/assets/images/send/send-transaction-details.png"
-	alt-text = "Screen showing the transaction details."
+	image = "/assets/images/send/review-screen-warning.png"
+	retina = "/assets/images/send/review-screen-warning@2x.png"
+	big = "/assets/images/send/review-screen-warning-big.png"
+	alt-text = "Transaction review screen with a warning message."
 	width = 800
 	height = 551
 %}
 
-#### Error handling
+## Confirmation screen
 
-There are scenarios in which the broadcasting of a transaction fails.
+The confirmation screen informs the user that the transction has been broadcast.
 
 {% include picture.html
-	image = "/assets/images/send/error-message.png"
-	retina = "/assets/images/send/error-message@2x.png"
-	big = "/assets/images/send/error-message-big.png"
-	alt-text = "Confirmation screen with an error message."
+	image = "/assets/images/send/send-confirmation.png"
+	retina = "/assets/images/send/send-confirmation@2x.png"
+	big = "/assets/images/send/send-confirmation-big.png"
+	alt-text = "Screen showing a success message."
 	width = 800
 	height = 551
 %}
-
