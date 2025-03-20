@@ -132,8 +132,7 @@ Before the transaction is broadcast, the user has another chance to review it.
 
 ## Confirmation screen
 
-The confirmation screen informs the user that the transction has been broadcast.
-
+The confirmation screen informs the user that the transaction has been broadcast.
 {% include picture.html
 	image = "/assets/images/send/send-confirmation.png"
 	retina = "/assets/images/send/send-confirmation@2x.png"
