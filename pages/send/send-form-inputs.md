@@ -24,7 +24,7 @@ To improve readability and address verification, the address input field formats
 	image = "/assets/images/send/send-inputs-address.png"
 	retina = "/assets/images/send/send-inputs-address@2x.png"
 	big = "/assets/images/send/send-inputs-address-big.png"
-	alt-text = "List of the amount input field in different states."
+	alt-text = "List of the address input field in different states."
 	width = 800
 	height = 815
 %}
