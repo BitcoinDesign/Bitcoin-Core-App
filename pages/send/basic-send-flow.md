@@ -93,7 +93,10 @@ If such information is present in the payment request, it is displayed at the to
 
 Note that when importing a payment request, the address cannot be changed manually.
 
-#### Validation errors
+#### Inline validation & error handling
+
+The application uses inline validation checks in many input fields to reduce errors and alert users to potential unintended consequences. Learn more on the [send form inputs page]({{ '/send/send-form-input-fields/' | relative_url }})
+
 
 {% include picture.html
 	image = "/assets/images/send/validation-errors.png"
@@ -118,29 +121,23 @@ Before the transaction is broadcast, the user has another chance to review it.
 	height = 551
 %}
 
-## Transaction confirmation
-
-After the transaction has been broadcast to the network, a success message is displayed. 
-
 {% include picture.html
-	image = "/assets/images/send/confirmation-message.png"
-	retina = "/assets/images/send/confirmation-message@2x.png"
-	big = "/assets/images/send/confirmation-message-big.png"
-	alt-text = "Confirmation screen with a success message."
+	image = "/assets/images/send/review-screen-warning.png"
+	retina = "/assets/images/send/review-screen-warning@2x.png"
+	big = "/assets/images/send/review-screen-warning-big.png"
+	alt-text = "Transaction review screen with a warning message."
 	width = 800
 	height = 551
 %}
 
-#### Error handling
+## Confirmation screen
 
-There are scenarios in which the broadcasting of a transaction fails.
-
+The confirmation screen informs the user that the transaction has been broadcast.
 {% include picture.html
-	image = "/assets/images/send/error-message.png"
-	retina = "/assets/images/send/error-message@2x.png"
-	big = "/assets/images/send/error-message-big.png"
-	alt-text = "Confirmation screen with an error message."
+	image = "/assets/images/send/send-confirmation.png"
+	retina = "/assets/images/send/send-confirmation@2x.png"
+	big = "/assets/images/send/send-confirmation-big.png"
+	alt-text = "Screen showing a success message."
 	width = 800
 	height = 551
 %}
-
