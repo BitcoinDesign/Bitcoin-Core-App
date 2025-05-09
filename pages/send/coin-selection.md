@@ -68,11 +68,24 @@ The UTXO list offers several display options:
 	height = 501
 %}
 
-## Future scope
+#### UTXO details
 
-### Locked coins
+From the UTXO list the user can dive navigate to the details of each UTXO, using the chevron icon button on the right. Initially, this will lead to the transaction details of the incoming transaction for that specific UTXO.  
 
-The application will support locking specific UTXOs to prevent them from being spent. Locked UTXOs will not appear in the coin selection screen by default, but their visibility can be toggled through the ellipsis menu.
+{% include picture.html
+	image = "/assets/images/send/coin-control-coin-details.png"
+	retina = "/assets/images/send/coin-control-coin-details@2x.png"
+	big = "/assets/images/send/coin-control-coin-details-big.png"
+	alt-text = "Screen showing the details of an incoming transaction"
+	width = 800
+	height = 685
+%}
+
+## Potential future scope
+
+#### Locked coins
+
+The application will support locking specific UTXOs to prevent them from being automatically selected for outgoing transactions. Locked UTXOs are not shown in the coin selection screen by default, but their visibility can be toggled through the ellipsis menu. Users will also be able to lock and unlock UTXOs.
 
 {% include picture.html
 	image = "/assets/images/send/coin-control-locked-coins.png"
@@ -85,6 +98,22 @@ The application will support locking specific UTXOs to prevent them from being s
 
 This functionality will also apply to UTXOs included in outgoing transactions with applied locktime. 
 
-### Coin flow diagram
+#### Dedicated UTXO details page
 
-- Tabbed views for "list view" and "visual coin flow" view
+We are considering a dedicated page for each UTXO as part of the future project roadmap. This specialized view will provide comprehensive information and management options for individual UTXOs.
+
+{% include picture.html
+	image = "/assets/images/send/coin-control-utxo-details.png"
+	retina = "/assets/images/send/coin-control-utxo-details@2x.png"
+	big = "/assets/images/send/coin-control-utxo-details-big.png"
+	alt-text = "Screen showing the details of a specific UTXO"
+	width = 800
+	height = 352
+%}
+
+#### Coin flow diagram
+
+A new coin flow diagram feature is under consideration, which would offer users two viewing options:
+
+- A standard list view of transactions
+- A visual coin flow representation to graphically illustrate transaction relationships
