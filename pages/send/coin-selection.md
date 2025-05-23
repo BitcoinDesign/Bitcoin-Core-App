@@ -70,7 +70,7 @@ The UTXO list offers several display options:
 
 #### UTXO details
 
-From the UTXO list the user can dive navigate to the details of each UTXO, using the chevron icon button on the right. Initially, this will lead to the transaction details of the incoming transaction for that specific UTXO.  
+From the UTXO list the user can navigate to the details of each UTXO, using the chevron icon button on the right. Initially, this will lead to the transaction details of the incoming transaction for that specific UTXO.  
 
 {% include picture.html
 	image = "/assets/images/send/coin-control-coin-details.png"
