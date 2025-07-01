@@ -12,11 +12,11 @@
 {% if page.videoHeight %}<meta property="og:video:height" content="{{ page.videoHeight }}">{% endif %}
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-title" content="Bitcoin Core App" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
+<link rel="icon" type="image/png" href="{{ "/assets/favicon-96x96.png" | relative_url }}" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="{{ "/assets/favicon.svg" | relative_url }}" />
+<link rel="shortcut icon" href="{{ "/assets/favicon.ico" | relative_url }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}" />
 
-<meta name="msapplication-TileColor" content="#f2a900">
-<meta name="theme-color" content="#f2a900">
-
+<link rel="manifest" href="{{ "/site.webmanifest" | relative_url }}" />
