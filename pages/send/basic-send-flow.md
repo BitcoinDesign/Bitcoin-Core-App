@@ -121,15 +121,6 @@ Before the transaction is broadcast, the user has another chance to review it.
 	height = 551
 %}
 
-{% include picture.html
-	image = "/assets/images/send/review-screen-warning.png"
-	retina = "/assets/images/send/review-screen-warning@2x.png"
-	big = "/assets/images/send/review-screen-warning-big.png"
-	alt-text = "Transaction review screen with a warning message."
-	width = 800
-	height = 551
-%}
-
 ## Confirmation screen
 
 The confirmation screen informs the user that the transaction has been broadcast.
