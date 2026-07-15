@@ -41,7 +41,7 @@ For broadest accessibility, the application should adapt seamlessly to platforms
 
 ## Universal design
 
-While a bitcoin wallet for children can be playful and creative, this application is meant to be visually neutral. Accessibility & ease of use are priority over creative visual expression. That does not mean it should be plain, but that "form follows function](https://en.wikipedia.org/wiki/Form_follows_function)". [Illustrations]({{ '/illustrations/' | relative_url }}), for example, should convey information that helps users better understand the UI and make more informed decisions. Good design is intentional.
+While a bitcoin wallet for children can be playful and creative, this application is meant to be visually neutral. Accessibility and ease of use take priority over creative visual expression. That does not mean it should be plain, but that [form follows function](https://en.wikipedia.org/wiki/Form_follows_function). Visual elements should help users understand the interface and make more informed decisions. Good design is intentional.
 
 ## Open design
 

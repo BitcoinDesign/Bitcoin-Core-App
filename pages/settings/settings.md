@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: Settings
 permalink: /settings/

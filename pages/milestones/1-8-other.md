@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: 1.8 Other
 permalink: /milestones/1-8-other/

@@ -171,7 +171,7 @@ Orange is the primary color used to indicate interactive elements. Orange light 
 
 ## Confirmations
 
-These are used in the [block status]({{ '/block-status/' | relative_url }}) and may potentially be used in future UI additions to represent the number of confirmations a block or transaction has.
+These colors can represent the number of confirmations a block or transaction has.
 
 <ol class="swatches -confirmations">
 	<li>
@@ -226,7 +226,7 @@ These are used in the [block status]({{ '/block-status/' | relative_url }}) and 
 
 ## Green to red gradient
 
-In the [peer details]({{ '/settings/peers/' | relative_url }}), a gradient from green to red is used to convey how relatively "good" or "bad" a value is in context. The colors are linearly distributed and can also be automatically calculated via the green and red values above.
+A gradient from green to red can convey how relatively "good" or "bad" a value is in context. The colors are linearly distributed and can also be automatically calculated via the green and red values above.
 
 <ol class="swatches -confirmations">
 	<li>

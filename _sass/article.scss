@@ -148,6 +148,23 @@ article {
         height: auto;
     }
 
+    .preview-screenshots {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 20px;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        @include media-query(small) {
+            grid-template-columns: 1fr;
+        }
+    }
+
     figure {
         margin: 20px 0 0 0;
         width: 100%;

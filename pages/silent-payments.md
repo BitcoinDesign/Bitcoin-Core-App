@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: Silent payments
 permalink: /silent-payments/

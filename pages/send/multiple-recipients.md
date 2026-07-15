@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: Multiple recipients
 permalink: /send/multiple-recipients/

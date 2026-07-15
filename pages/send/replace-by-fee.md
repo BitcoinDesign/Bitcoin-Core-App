@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: Speed up & cancel
 permalink: /send/replace-by-fee/
