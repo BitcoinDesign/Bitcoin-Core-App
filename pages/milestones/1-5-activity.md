@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: 1.5 Activity
 permalink: /milestones/1-5-activity/

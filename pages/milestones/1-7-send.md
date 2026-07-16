@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: 1.7 Send
 permalink: /milestones/1-7-send/

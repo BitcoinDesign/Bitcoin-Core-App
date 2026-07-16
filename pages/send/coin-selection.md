@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: Coin selection
 permalink: /send/coin-selection/

@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: Connection
 permalink: /settings/connection/
@@ -37,4 +38,3 @@ Changes require an application restart. Because this interaction model is unique
 - The notice lights up when there are unsaved changes.
 - Pressing "Back" with unsaved changes asks the user whether to abandon those.
 - Pressing "Done" saves changes and asks the user whether they want to restart the application now.
-

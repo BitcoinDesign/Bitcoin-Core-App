@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: 1.2 Navigation
 permalink: /milestones/1-2-navigation/

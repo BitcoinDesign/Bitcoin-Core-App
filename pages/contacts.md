@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: Contacts
 permalink: /contacts/

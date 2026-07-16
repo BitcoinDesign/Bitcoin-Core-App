@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: 1.3 Import
 permalink: /milestones/1-3-import/
@@ -120,7 +121,6 @@ In all of these cases, we want to make sure that the application provides clear,
 3. What the user can do (remedy).
 
 More general guidelines for error handling can be found in the [Bitcoin Design Guide](https://bitcoin.design/guide/daily-spending-wallet/sending/#errors).
-
 
 
 

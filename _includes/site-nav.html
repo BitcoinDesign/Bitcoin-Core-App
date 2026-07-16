@@ -2,13 +2,13 @@
 
   <div class="top">
     <a href="{{ '/' | relative_url }}">
-      <b>Bitcoin Core app</b><br/>Design docs
+      <b>Bitcoin Core app</b><br/>Preview &amp; design
     </a>
     <button id="site-nav-toggle" aria-expanded="false" aria-controls="site-nav-nav" aria-label="Show site navigation" hidden />
   </div>
 
   <nav id="site-nav-nav">
-    <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %} -active{% endif %}">Introduction</a>
+    <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %} -active{% endif %}">Download &amp; test</a>
 
     {%- assign section = page.url | replace:'/',' ' | truncatewords: 1,"" -%}
     {%- assign section = 'pages' -%}

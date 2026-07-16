@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: Addresses
 permalink: /addresses/
@@ -42,5 +43,4 @@ A silent payment address is a static offchain address that is used by the sender
 	width = 800
 	height = 366
 %}
-
 

@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: About
 permalink: /settings/about/
@@ -18,5 +19,4 @@ Provides basic information about the application. [Developer options]({{ '/setti
 	width = 800
 	height = 491
 %}
-
 

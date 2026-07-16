@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: Developer
 permalink: /settings/developer/
